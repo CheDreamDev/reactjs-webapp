@@ -6,6 +6,7 @@ import Home from '../components/Home/HomeContainer'
 import Faq from '../components/Faq/FaqContainer'
 import ContactUs from '../components/ContactUs/ContactUsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
+import Footer from '../components/Footer/Footer'
 // router
 import { Route, Switch } from 'react-router'
 import { HashRouter, NavLink } from 'react-router-dom'
@@ -49,9 +50,8 @@ class App extends Component {
             </Switch>
           </div>
 
-          <footer>
-            <p>Created by Geekhub JS Team</p>
-          </footer>
+          <Footer/>
+
         </div>
       </HashRouter>
     )

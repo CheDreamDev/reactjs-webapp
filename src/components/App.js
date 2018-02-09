@@ -6,7 +6,7 @@ import Home from '../components/Home/HomeContainer'
 import Faq from '../components/Faq/FaqContainer'
 import ContactUs from '../components/ContactUs/ContactUsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
-import FacebookLoginButton from './FacebookLoginButton'
+import FacebookLoginButton from './FacebookLoginButton/FacebookLoginButtonContainer'
 // router
 import { Route, Switch } from 'react-router'
 import { HashRouter, NavLink } from 'react-router-dom'
@@ -23,26 +23,6 @@ const NotFound = () => {
 }
 
 class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      FBImg: '',
-      FBName: '',
-      FBEmail: '',
-      FBToken: '',
-    }
-  }
-
-  facebookCallback(response) {
-    console.log(response, this)
-    this.setState({
-      FBImage: response.picture.data.url,
-      FBName: response.name,
-      FBEmail: response.email,
-      FBToken: response.accessToken
-    },state => console.log(state))
-  }
-  
   render () {
     return (
       <HashRouter>
@@ -57,12 +37,8 @@ class App extends Component {
                 <li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li>
                 <li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li>
                 <li>
-                  <FacebookLoginButton callback={this.facebookCallback.bind(this)} />
+                  <FacebookLoginButton />
                 </li>
-                <li><img alt={this.state.FBName} src={this.state.FBImage} /></li>
-                <li>{this.state.FBName}</li>
-                <li>{this.state.FBEmail}</li>
-                <li>{this.state.FBToken}</li>
               </ul>
             </nav>
           </header>

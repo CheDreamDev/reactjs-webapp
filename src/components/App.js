@@ -6,6 +6,7 @@ import Home from '../components/Home/HomeContainer'
 import Faq from '../components/Faq/FaqContainer'
 import ContactUs from '../components/ContactUs/ContactUsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
+import Footer from '../components/Footer/Footer'
 import Form from '../components/Form/Form'
 // router
 import { Route, Switch } from 'react-router'
@@ -55,6 +56,8 @@ class App extends Component {
           <footer>
             <p>Created by Geekhub JS Team</p>
           </footer>
+          <Footer/>
+
         </div>
       </HashRouter>
     )

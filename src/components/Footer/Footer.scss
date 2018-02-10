@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  min-height:70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  background-color: darkgray;
+  top: 0;
+  left: 0;
+  color: rgb(232, 232, 232);
+  font-weight: bold;
+}

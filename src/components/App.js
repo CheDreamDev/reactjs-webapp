@@ -52,10 +52,6 @@ class App extends Component {
           </div>
 
           <Form/>
-
-          <footer>
-            <p>Created by Geekhub JS Team</p>
-          </footer>
           <Footer/>
 
         </div>

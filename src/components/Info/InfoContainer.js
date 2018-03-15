@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { changeStateProp } from '../../actions'
 import { increment, decrement } from '../../actions/main'
-import Faq from './Faq'
+import Info from './Info'
 
 const mapStateToProps = ({main: {value}}, ownProps) => {
   return {
@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const FaqContainer = connect(
+const InfoContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Faq)
+)(Info)
 
-export default FaqContainer
+export default InfoContainer

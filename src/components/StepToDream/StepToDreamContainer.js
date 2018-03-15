@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { changeStateProp } from '../../actions'
 import { increment, decrement } from '../../actions/main'
-import ContactUs from './ContactUs'
+import StepToDream from './StepToDream'
 
 const mapStateToProps = ({main: {value}}, ownProps) => {
   return {
@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const ContactUsContainer = connect(
+const StepToDreamContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ContactUs)
+)(StepToDream)
 
-export default ContactUsContainer
+export default StepToDreamContainer

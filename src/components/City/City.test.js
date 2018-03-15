@@ -1,9 +1,9 @@
 /* eslint-env jest */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ContactUs from './ContactUs'
+import City from './City'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<ContactUs />, div)
+  ReactDOM.render(<City />, div)
 })

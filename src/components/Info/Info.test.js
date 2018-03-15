@@ -1,9 +1,9 @@
 /* eslint-env jest */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Faq from './Faq'
+import Info from './Info'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Faq />, div)
+  ReactDOM.render(<Info />, div)
 })

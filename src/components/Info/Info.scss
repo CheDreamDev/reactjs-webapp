@@ -1,0 +1,76 @@
+.info {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: dodgerblue;
+  color: white;
+}
+.App-info {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 400px;
+}
+.row {
+  padding: 0 70px 0 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow: auto;
+}
+.info-title {
+  font-size: 50px;
+  margin: 30px 0 30px 0;
+}
+.infoContent {
+  margin-top: 0;
+  padding-right: 180px;
+  font-size: 18px;
+}
+.rowInfo {
+  padding: 100px 0 100px 0;
+  text-align: left;
+}
+.registerBtn {
+  background-color: white;
+  color: dodgerblue;
+  padding: 10px 30px;
+  margin: 30px 0 30px 0;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.registerBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+.btnInfo {
+  color: white;
+  margin: 30px 0 30px 0;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+@media (max-width: 1025px) {
+  .infoContent {
+    padding: 0;
+  }
+  .rowInfo {
+    padding: 50px 0 50px 0;
+    text-align: center;
+  }
+  .info-title {
+    font-size: 35px;
+    margin: 20px 0 20px 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .rowImg {
+    padding: 0 0 20px 0;
+  }
+}

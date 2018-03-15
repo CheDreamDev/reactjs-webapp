@@ -3,10 +3,18 @@ import PropTypes from 'prop-types'
 import './App.css'
 // components
 import Home from '../components/Home/HomeContainer'
-import Faq from '../components/Faq/FaqContainer'
-import ContactUs from '../components/ContactUs/ContactUsContainer'
+import Info from '../components/Info/InfoContainer'
+import Assistants from '../components/Assistants/AssistantsContainer'
+import NewDreams from '../components/newDreams/NewDreamsContainer'
+import StepToDream from '../components/StepToDream/StepToDreamContainer'
+import Categories from '../components/Categories/CategoriesContainer'
+import DreamsСity from '../components/DreamsСity/DreamsСityContainer'
+import City from '../components/City/CityContainer'
+import BestDreams from '../components/BestDreams/BestDreams'
+import Testimonials from '../components/Testimonials/TestimonialsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
 import Footer from '../components/Footer/Footer'
+
 // router
 import { Route, Switch } from 'react-router'
 import { HashRouter, NavLink } from 'react-router-dom'
@@ -27,31 +35,41 @@ class App extends Component {
     return (
       <HashRouter>
         <div className='App'>
-          <header className='App-header'>
-            <h1>Chedream</h1>
+          {/*<header className='App-header'>*/}
+            {/*<h1>Chedream</h1>*/}
 
-            <nav>
-              <ul>
-                <li><NavLink to={`/`} activeClassName="is-active">Головна</NavLink></li>
-                <li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li>
-                <li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li>
-                <li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li>
-              </ul>
-            </nav>
-          </header>
+            {/*<nav>*/}
+              {/*<ul>*/}
+                {/*<li><NavLink to={`/`} activeClassName="is-active">Головна</NavLink></li>*/}
+                {/*<li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li>*/}
+                {/*<li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li>*/}
+                {/*<li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li>*/}
+              {/*</ul>*/}
+            {/*</nav>*/}
+          {/*</header>*/}
 
-          <div>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/faq' component={Faq} />
-              <Route path='/contact-us' component={ContactUs} />
-              <Route path='/add-dream' component={AddDream} />
-              <Route component={NotFound} />
-            </Switch>
-          </div>
+          {/*<div>*/}
+            {/*<Switch>*/}
+              {/*<Route exact path='/' component={Home} />*/}
+              {/*<Route path='/faq' component={Faq} />*/}
+              {/*<Route path='/contact-us' component={ContactUs} />*/}
+              {/*<Route path='/add-dream' component={AddDream} />*/}
+              {/*<Route component={NotFound} />*/}
+            {/*</Switch>*/}
+          {/*</div>*/}
 
-          <Footer/>
-
+          <Home />
+          <Info />
+          <Assistants />
+          <NewDreams />
+          <StepToDream />
+          <Categories />
+          <DreamsСity />
+          <City />
+          <BestDreams />
+          <Testimonials />
+          <AddDream />
+          <Footer />
         </div>
       </HashRouter>
     )

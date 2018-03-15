@@ -1,0 +1,76 @@
+.header {
+  color: dodgerblue;
+  box-sizing: border-box;
+}
+.copyright {
+  font-size: 50px;
+}
+.App-header {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 400px;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.logo-title {
+  margin-left: 15px;
+}
+.logo-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dreamBtn {
+  margin: 30px 0 30px 30px;
+  text-decoration: none;
+  color: dodgerblue;
+}
+.dreamBtn:hover {
+  border-bottom: 1px solid dodgerblue;
+}
+.registerBtnHome {
+  text-decoration: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 30px;
+  margin: 30px 0 30px 25px;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.registerBtnHome:hover {
+  text-decoration: none;
+  color: dodgerblue;
+  background-color: transparent;
+  border-color: dodgerblue;
+}
+.comeBtn {
+  text-decoration: none;
+  color: dodgerblue;
+  padding: 10px 30px;
+  margin: 30px 0 30px 25px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.comeBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: dodgerblue;
+  border-color: white;
+}
+
+

@@ -1,0 +1,22 @@
+.Dreams {
+  color: dodgerblue;
+  box-sizing: border-box;
+}
+.rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.blockNewDreams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.photoDream {
+  max-width: 350px;
+}
+
+
+

@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { changeStateProp } from '../../actions'
-import { increment, decrement } from '../../actions/main'
-import Categories from './Categories'
+import { changeStateProp } from '../../../actions/index'
+import { increment, decrement } from '../../../actions/main'
+import StepToDream from './StepToDream'
 
 const mapStateToProps = ({main: {value}}, ownProps) => {
   return {
@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const CategoriesContainer = connect(
+const StepToDreamContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Categories)
+)(StepToDream)
 
-export default CategoriesContainer
+export default StepToDreamContainer

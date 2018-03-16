@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
-import './StepToDream.css'
-import DreamsSingleItem from '../newDreams/DreamsSingleItem/DreamsSingleItem'
+import './NewDreams.css'
+import DreamsSingleItem from './DreamsSingleItem/DreamsSingleItem'
+import sky from '../../../assets/images/sky.jpg'
 
-class StepToDream extends Component {
+class NewDreams extends Component {
   constructor (props) {
     super(props)
     this.state = {
       cards: [
         {
           id: 1,
-          photo: '',
+          photo: sky,
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
           city: 'Київ',
@@ -37,7 +38,7 @@ class StepToDream extends Component {
           category: 'Спорт',
           finance: 10,
           equipment: 30,
-          work: 80
+          work: 100
         }
       ]
     }
@@ -47,7 +48,7 @@ class StepToDream extends Component {
       <section className='Dreams'>
         <div className='container'>
           <div className='rowTitle'>
-            <h3>За крок до мрії</h3>
+            <h3>Нові мрії</h3>
             <a href='' className='btnUncover'>Показати більше</a>
           </div>
           <div className='blockNewDreams'>
@@ -59,4 +60,4 @@ class StepToDream extends Component {
   }
 }
 
-export default StepToDream
+export default NewDreams

@@ -2,18 +2,18 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './App.css'
 // components
-import Home from '../components/Home/HomeContainer'
-import Info from '../components/Info/InfoContainer'
-import Assistants from '../components/Assistants/AssistantsContainer'
-import NewDreams from '../components/newDreams/NewDreamsContainer'
-import StepToDream from '../components/StepToDream/StepToDreamContainer'
-import Categories from '../components/Categories/CategoriesContainer'
-import DreamsСity from '../components/DreamsСity/DreamsСityContainer'
-import City from '../components/City/CityContainer'
-import BestDreams from '../components/BestDreams/BestDreams'
-import Testimonials from '../components/Testimonials/TestimonialsContainer'
-import AddDream from '../components/AddDream/AddDreamContainer'
-import Footer from '../components/Footer/Footer'
+import Header from './common/Header/HeaderContainer'
+import Info from './Home/Info/InfoContainer'
+import Assistants from './Home/Assistants/AssistantsContainer'
+import NewDreams from './Home/newDreams/NewDreamsContainer'
+import StepToDream from './Home/StepToDream/StepToDreamContainer'
+import Categories from './Home/Categories/CategoriesContainer'
+import DreamsСity from './Home/DreamsСity/DreamsСityContainer'
+import City from './Home/City/CityContainer'
+import BestDreams from './Home/BestDreams/BestDreams'
+import Testimonials from './Home/Testimonials/TestimonialsContainer'
+import AddDream from './Home/AddDream/AddDreamContainer'
+import Footer from './common/Footer/Footer'
 
 // router
 import { Route, Switch } from 'react-router'
@@ -50,7 +50,7 @@ class App extends Component {
 
           {/*<div>*/}
             {/*<Switch>*/}
-              {/*<Route exact path='/' component={Home} />*/}
+              {/*<Route exact path='/' component={Header} />*/}
               {/*<Route path='/faq' component={Faq} />*/}
               {/*<Route path='/contact-us' component={ContactUs} />*/}
               {/*<Route path='/add-dream' component={AddDream} />*/}
@@ -58,7 +58,7 @@ class App extends Component {
             {/*</Switch>*/}
           {/*</div>*/}
 
-          <Home />
+          <Header />
           <Info />
           <Assistants />
           <NewDreams />

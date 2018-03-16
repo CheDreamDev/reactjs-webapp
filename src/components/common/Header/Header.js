@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
-import './Home.css'
+import './Header.css'
 
-class Home extends Component {
+class Header extends Component {
   render () {
     return (
       <section className='header'>
@@ -29,4 +29,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default Header

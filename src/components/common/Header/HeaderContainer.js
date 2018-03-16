@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { changeStateProp } from '../../actions'
-import { increment, decrement } from '../../actions/main'
-import StepToDream from './StepToDream'
+import { changeStateProp } from '../../../actions/index'
+import { increment, decrement } from '../../../actions/main'
+import Header from './Header'
 
 const mapStateToProps = ({main: {value}}, ownProps) => {
   return {
@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const StepToDreamContainer = connect(
+const HeaderContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(StepToDream)
+)(Header)
 
-export default StepToDreamContainer
+export default HeaderContainer

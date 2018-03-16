@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { changeStateProp } from '../../actions'
-import { increment, decrement } from '../../actions/main'
-import Testimonials from './Testimonials'
+import { changeStateProp } from '../../../actions/index'
+import { increment, decrement } from '../../../actions/main'
+import City from './City'
 
 const mapStateToProps = ({main: {value}}, ownProps) => {
   return {
@@ -23,9 +23,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const TestimonialsContainer = connect(
+const CityContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(Testimonials)
+)(City)
 
-export default TestimonialsContainer
+export default CityContainer

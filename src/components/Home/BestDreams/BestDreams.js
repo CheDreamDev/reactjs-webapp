@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './BestDreams.css'
-import sky from '../../assets/images/sky.jpg'
+import sky from '../../../assets/images/sky.jpg'
 
 class BestDreams extends Component {
   render () {

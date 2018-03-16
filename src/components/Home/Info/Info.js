@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './Info.css'
-import sky from '../../assets/images/sky.jpg'
+import sky from '../../../assets/images/sky.jpg'
 
 class Info extends Component {
   render () {

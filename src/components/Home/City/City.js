@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './City.css'
 import CitySingleItem from './CitySingleItem/CitySingleItem'
-import sky from '../../assets/images/sky.jpg'
+import sky from '../../../assets/images/sky.jpg'
 
 class City extends Component {
   constructor (props) {

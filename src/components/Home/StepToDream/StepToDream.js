@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
-import './DreamsСity.css'
-import DreamsSingleItem from '../newDreams/DreamsSingleItem/DreamsSingleItem'
+import './StepToDream.css'
+import DreamsSingleItem from '../../Home/newDreams/DreamsSingleItem/DreamsSingleItem'
 
-class DreamsСity extends Component {
+class StepToDream extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -13,7 +13,7 @@ class DreamsСity extends Component {
           photo: '',
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
-          city: 'Черкаси',
+          city: 'Київ',
           category: 'Спорт',
           finance: 0,
           equipment: 50,
@@ -23,7 +23,7 @@ class DreamsСity extends Component {
           photo: '',
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
-          city: 'Черкаси',
+          city: 'Київ',
           category: 'Спорт',
           finance: 48,
           equipment: 50,
@@ -33,7 +33,7 @@ class DreamsСity extends Component {
           photo: '',
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
-          city: 'Черкаси',
+          city: 'Київ',
           category: 'Спорт',
           finance: 10,
           equipment: 30,
@@ -47,7 +47,7 @@ class DreamsСity extends Component {
       <section className='Dreams'>
         <div className='container'>
           <div className='rowTitle'>
-            <h3>Мрії твого міста (Найближчі до тебе мрії)</h3>
+            <h3>За крок до мрії</h3>
             <a href='' className='btnUncover'>Показати більше</a>
           </div>
           <div className='blockNewDreams'>
@@ -59,4 +59,4 @@ class DreamsСity extends Component {
   }
 }
 
-export default DreamsСity
+export default StepToDream

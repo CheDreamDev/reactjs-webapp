@@ -40,7 +40,7 @@ class City extends Component {
         <div className='container'>
           <div className='rowTitle'>
             <h3>Міста з мріями</h3>
-            <a href='' className='btnUncover'>Всі міста</a>
+            <a href='#' className='btnUncover'>Всі міста</a>
           </div>
           <div className='blockCity'>
             {this.state.cards.map(card => <CitySingleItem key={card.id} {...card} />)}

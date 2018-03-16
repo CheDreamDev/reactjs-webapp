@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './NewDreams.css'
-import DreamsSingleItem from './DreamsSingleItem/DreamsSingleItem'
+import DreamsSingleItem from '../../common/DreamsSingleItem/DreamsSingleItem'
 import sky from '../../../assets/images/sky.jpg'
 
 class NewDreams extends Component {
@@ -49,7 +49,7 @@ class NewDreams extends Component {
         <div className='container'>
           <div className='rowTitle'>
             <h3>Нові мрії</h3>
-            <a href='' className='btnUncover'>Показати більше</a>
+            <a href='#' className='btnUncover'>Показати більше</a>
           </div>
           <div className='blockNewDreams'>
             {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}

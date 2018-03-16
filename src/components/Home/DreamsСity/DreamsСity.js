@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './DreamsСity.css'
-import DreamsSingleItem from '../../Home/newDreams/DreamsSingleItem/DreamsSingleItem'
+import DreamsSingleItem from '../../common/DreamsSingleItem/DreamsSingleItem'
 
 class DreamsСity extends Component {
   constructor (props) {
@@ -48,7 +48,7 @@ class DreamsСity extends Component {
         <div className='container'>
           <div className='rowTitle'>
             <h3>Мрії твого міста (Найближчі до тебе мрії)</h3>
-            <a href='' className='btnUncover'>Показати більше</a>
+            <a href='#' className='btnUncover'>Показати більше</a>
           </div>
           <div className='blockNewDreams'>
             {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}

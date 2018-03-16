@@ -14,8 +14,8 @@ class Info extends Component {
               <p className='infoContent'>Pain may sometimes be the reason why people change. Getting
                 bad grades make you realize that you need to study. Debts remind
                 you of your inability to look a source of income</p>
-              <a className='registerBtn'>Зареєструватися</a>
-              <a href='' className='btnInfo'>Як це працює</a>
+              <a href='#' className='registerBtn'>Зареєструватися</a>
+              <a href='#' className='btnInfo'>Як це працює</a>
             </div>
             <div className='rowImg'>
               <img className='sky' src={sky} alt='sky' />

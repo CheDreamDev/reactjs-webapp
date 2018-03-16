@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './StepToDream.css'
-import DreamsSingleItem from '../../Home/newDreams/DreamsSingleItem/DreamsSingleItem'
+import DreamsSingleItem from '../../common/DreamsSingleItem/DreamsSingleItem'
 
 class StepToDream extends Component {
   constructor (props) {
@@ -48,7 +48,7 @@ class StepToDream extends Component {
         <div className='container'>
           <div className='rowTitle'>
             <h3>За крок до мрії</h3>
-            <a href='' className='btnUncover'>Показати більше</a>
+            <a href='#' className='btnUncover'>Показати більше</a>
           </div>
           <div className='blockNewDreams'>
             {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}

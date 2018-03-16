@@ -9,7 +9,7 @@ class AddDream extends Component {
         <div className='container'>
           <div className='blockAddDream'>
             <h2>Втіль мрію у життя!</h2>
-            <a className='registerBtn'>Зареєструватися</a>
+            <a href='#' className='registerBtn'>Зареєструватися</a>
           </div>
         </div>
       </section>

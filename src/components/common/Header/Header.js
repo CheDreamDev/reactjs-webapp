@@ -14,14 +14,14 @@ class Header extends Component {
             </div>
           </div>
           <nav className='nav header-block'>
-            <img className='icon' alt='icon' />
-            <a href='' className='dreamBtn'>Створити мрію(проект)</a>
-            <a href='' className='dreamBtn'>Мрії(проекти)</a>
+            <img src='' className='icon' alt='icon' />
+            <a href='#' className='dreamBtn'>Створити мрію(проект)</a>
+            <a href='#' className='dreamBtn'>Мрії(проекти)</a>
           </nav>
           <div className='btn header-block'>
-            <img className='icon' alt='icon' />
-            <a href='' className='comeBtn'>Увійти</a>
-            <a href='' className='registerBtnHome'>Зареєструватися</a>
+            <img src='' className='icon' alt='icon' />
+            <a href='#' className='comeBtn'>Увійти</a>
+            <a href='#' className='registerBtnHome'>Зареєструватися</a>
           </div>
         </header>
       </section>

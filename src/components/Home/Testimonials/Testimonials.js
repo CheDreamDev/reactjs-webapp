@@ -9,7 +9,7 @@ class Testimonials extends Component {
         <div className='container'>
           <div className='block'>
             <div className='blockTestimonials'>
-              <img src='' alt='' />
+              <img src='' alt='icon' />
               <h2>В нас все вийшло завдяки UDream</h2>
               <p>Один добрий чоловік</p>
               <p>Проект цього чоловіка</p>
@@ -19,7 +19,7 @@ class Testimonials extends Component {
               <div>
                 <input name='email' type='email' placeholder='Email' />
                 <div>
-                  <a href='' >Підписатися</a>
+                  <a href='#' >Підписатися</a>
                 </div>
               </div>
               <p>2 рази в місяць, по суті і без спаму</p>

@@ -12,13 +12,13 @@ class BestDreams extends Component {
             <div className='rowBestDreams'>
               <img className='photoBestDreams' src={sky} alt='sky' />
               <div>
-                <a href='' className=''>Як створити мрію?</a>
+                <a href='#' className=''>Як створити мрію?</a>
               </div>
             </div>
             <div className='rowBestDreams'>
               <img className='photoBestDreams' src={sky} alt='sky' />
               <div>
-                <a href='' className=''>Як створити мрію?</a>
+                <a href='#' className=''>Як створити мрію?</a>
               </div>
             </div>
           </div>

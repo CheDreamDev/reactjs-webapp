@@ -9,12 +9,12 @@ class Categories extends Component {
         <div className='container'>
           <div className='row-wrap'>
             <div className='block-btn'>
-              <a className='registerBtnHome'>Категорія спорт</a>
-              <a className='registerBtnHome'>Категорія спорт</a>
-              <a className='registerBtnHome'>Категорія спорт</a>
-              <a className='registerBtnHome'>Категорія спорт</a>
-              <a className='registerBtnHome'>Категорія спорт</a>
-              <a className='comeBtn'>Всі категорії</a>
+              <a href='#' className='registerBtnHome'>Категорія спорт</a>
+              <a href='#' className='registerBtnHome'>Категорія спорт</a>
+              <a href='#' className='registerBtnHome'>Категорія спорт</a>
+              <a href='#' className='registerBtnHome'>Категорія спорт</a>
+              <a href='#' className='registerBtnHome'>Категорія спорт</a>
+              <a href='#' className='comeBtn'>Всі категорії</a>
             </div>
           </div>
         </div>

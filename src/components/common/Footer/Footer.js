@@ -15,31 +15,31 @@ class Footer extends Component {
               <div className='menu-wrap'>
                 <div className='block-menu'>
                   <h3>Про нас</h3>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
                 </div>
                 <div className='block-menu'>
                   <h3>Про нас</h3>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
                 </div>
                 <div className='block-menu'>
                   <h3>Про нас</h3>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
                 </div>
                 <div className='block-menu'>
                   <h3>Про нас</h3>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
-                  <a href=''>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
+                  <a href='#'>Посилання</a>
                 </div>
               </div>
             </div>

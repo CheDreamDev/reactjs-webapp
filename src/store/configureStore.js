@@ -11,7 +11,7 @@ import rootReducer from '../reducers/index.js'
 
 const persistConfig = {
   key: 'root',
-  storage: storage,
+  storage: storage
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)

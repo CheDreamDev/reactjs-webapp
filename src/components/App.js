@@ -35,28 +35,28 @@ class App extends Component {
     return (
       <HashRouter>
         <div className='App'>
-          {/*<header className='App-header'>*/}
-            {/*<h1>Chedream</h1>*/}
+          {/* <header className='App-header'> */}
+          {/* <h1>Chedream</h1> */}
 
-            {/*<nav>*/}
-              {/*<ul>*/}
-                {/*<li><NavLink to={`/`} activeClassName="is-active">Головна</NavLink></li>*/}
-                {/*<li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li>*/}
-                {/*<li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li>*/}
-                {/*<li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li>*/}
-              {/*</ul>*/}
-            {/*</nav>*/}
-          {/*</header>*/}
+          {/* <nav> */}
+          {/* <ul> */}
+          {/* <li><NavLink to={`/`} activeClassName="is-active">Головна</NavLink></li> */}
+          {/* <li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li> */}
+          {/* <li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li> */}
+          {/* <li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li> */}
+          {/* </ul> */}
+          {/* </nav> */}
+          {/* </header> */}
 
-          {/*<div>*/}
-            {/*<Switch>*/}
-              {/*<Route exact path='/' component={Header} />*/}
-              {/*<Route path='/faq' component={Faq} />*/}
-              {/*<Route path='/contact-us' component={ContactUs} />*/}
-              {/*<Route path='/add-dream' component={AddDream} />*/}
-              {/*<Route component={NotFound} />*/}
-            {/*</Switch>*/}
-          {/*</div>*/}
+          {/* <div> */}
+          {/* <Switch> */}
+          {/* <Route exact path='/' component={Header} /> */}
+          {/* <Route path='/faq' component={Faq} /> */}
+          {/* <Route path='/contact-us' component={ContactUs} /> */}
+          {/* <Route path='/add-dream' component={AddDream} /> */}
+          {/* <Route component={NotFound} /> */}
+          {/* </Switch> */}
+          {/* </div> */}
 
           <Header />
           <Info />

@@ -33,6 +33,7 @@ export default class FacebookLoginButton extends Component {
         fields='name,email,picture'
         callback={this.facebookCallback}
         size='small'
+        version='2.12'
         icon={<Icon />}
         cssClass='fb-login'
         textButton={'Увійти'}

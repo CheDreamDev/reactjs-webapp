@@ -3,6 +3,16 @@ import React, { Component } from 'react'
 import './Testimonials.css'
 
 class Testimonials extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      email: ''
+    }
+    this.submitFormHandler = this.submitFormHandler.bind(this)
+  }
+  submitFormHandler (e) {
+    e.preventDefault()
+  }
   render () {
     return (
       <section className='testimonials'>
@@ -16,12 +26,13 @@ class Testimonials extends Component {
             </div>
             <div className='blockSubscribe'>
               <h3>Останні новини UDream</h3>
-              <div>
-                <input name='email' type='email' placeholder='Email' />
+              <form onSubmit={this.submitFormHandler}>
                 <div>
-                  <a href='#' >Підписатися</a>
+                  <input name='email' type='email' placeholder='Email' value={this.state.email} onChange={e => this.setState({ email: e.target.value })}
+                  />
                 </div>
-              </div>
+                <button type='submit'>Підписатися</button>
+              </form>
               <p>2 рази в місяць, по суті і без спаму</p>
             </div>
           </div>

@@ -30,8 +30,8 @@ class Testimonials extends Component {
                 <div>
                   <input name='email' type='email' placeholder='Email' value={this.state.email} onChange={e => this.setState({ email: e.target.value })}
                   />
+                  <button type='submit'>Підписатися</button>
                 </div>
-                <button type='submit'>Підписатися</button>
               </form>
               <p>2 рази в місяць, по суті і без спаму</p>
             </div>

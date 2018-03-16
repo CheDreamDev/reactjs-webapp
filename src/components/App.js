@@ -7,6 +7,7 @@ import Faq from '../components/Faq/FaqContainer'
 import ContactUs from '../components/ContactUs/ContactUsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
 import Footer from '../components/Footer/Footer'
+import Form from '../components/Form/Form'
 // router
 import { Route, Switch } from 'react-router'
 import { HashRouter, NavLink } from 'react-router-dom'
@@ -50,6 +51,7 @@ class App extends Component {
             </Switch>
           </div>
 
+          <Form/>
           <Footer/>
 
         </div>

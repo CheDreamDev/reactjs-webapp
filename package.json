@@ -15,8 +15,12 @@
   "dependencies": {
     "axios": "^0.17.0",
     "immutability-helper": "^2.2.0",
+    "moment": "^2.20.1",
+    "react-datepicker": "^1.1.0",
+    "redux-form": "^7.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-facebook-login": "^3.7.2",
     "react-redux": "^5.0.4",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.0",

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './App.css'
 // components
+
 import Header from './common/Header/Header'
 import Info from './Home/Info/Info'
 import Assistants from './Home/Assistants/Assistants'
@@ -14,6 +15,8 @@ import BestDreams from './Home/BestDreams/BestDreams'
 import Testimonials from './Home/Testimonials/Testimonials'
 import AddDream from './Home/AddDream/AddDream'
 import Footer from './common/Footer/Footer'
+// import Form from '../components/Form/Form'
+// import FacebookLoginButton from './FacebookLoginButton/FacebookLoginButtonContainer'
 
 // router
 import { Route, Switch } from 'react-router'
@@ -37,17 +40,19 @@ class App extends Component {
         <div className='App'>
           {/* <header className='App-header'> */}
           {/* <h1>Chedream</h1> */}
-
           {/* <nav> */}
           {/* <ul> */}
           {/* <li><NavLink to={`/`} activeClassName="is-active">Головна</NavLink></li> */}
           {/* <li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li> */}
           {/* <li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li> */}
           {/* <li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li> */}
+          {/* <li> */}
+          {/* <FacebookLoginButton /> */}
+          {/* </li> */}
           {/* </ul> */}
+          {/* <Form /> */}
           {/* </nav> */}
           {/* </header> */}
-
           {/* <div> */}
           {/* <Switch> */}
           {/* <Route exact path='/' component={Header} /> */}
@@ -57,7 +62,6 @@ class App extends Component {
           {/* <Route component={NotFound} /> */}
           {/* </Switch> */}
           {/* </div> */}
-
           <Header />
           <Info />
           <Assistants />

@@ -8,6 +8,7 @@ import ContactUs from '../components/ContactUs/ContactUsContainer'
 import AddDream from '../components/AddDream/AddDreamContainer'
 import Footer from '../components/Footer/Footer'
 import Form from '../components/Form/Form'
+import FacebookLoginButton from './FacebookLoginButton/FacebookLoginButtonContainer'
 // router
 import { Route, Switch } from 'react-router'
 import { HashRouter, NavLink } from 'react-router-dom'
@@ -37,6 +38,9 @@ class App extends Component {
                 <li><NavLink to={`/faq`} activeClassName="is-active">FAQ</NavLink></li>
                 <li><NavLink to={`/contact-us`} activeClassName="is-active">Контакти</NavLink></li>
                 <li><NavLink to={`/add-dream`} activeClassName="is-active">Додати мрію</NavLink></li>
+                <li>
+                  <FacebookLoginButton />
+                </li>
               </ul>
             </nav>
           </header>

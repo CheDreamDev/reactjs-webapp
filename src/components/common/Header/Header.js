@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './Header.css'
+import { NavLink, Link } from 'react-router-dom'
 
 class Header extends Component {
   render () {
@@ -9,19 +10,35 @@ class Header extends Component {
         <header className='App-header container'>
           <div className='logo logo-block'>
             <div className='logo-wrap'>
-              <p className='copyright'>&copy;</p>
-              <h3 className='logo-title'>UDream</h3>
+              <Link to='/'>
+                <p className='copyright'>&copy;</p>
+                <h3 className='logo-title'>UDream</h3>
+              </Link>
             </div>
           </div>
           <nav className='nav header-block'>
             <img src='' className='icon' alt='icon' />
-            <a href='#' className='dreamBtn'>Створити мрію(проект)</a>
-            <a href='#' className='dreamBtn'>Мрії(проекти)</a>
+            <NavLink
+              to='/dream/create'
+              className='dreamBtn'
+              activeClassName='selected'
+            >Створити мрію(проект)</NavLink>
+            <NavLink
+              to='/dreams'
+              className='dreamBtn'
+              activeClassName='selected'
+            >Мрії(проекти)</NavLink>
           </nav>
           <div className='btn header-block'>
             <img src='' className='icon' alt='icon' />
-            <a href='#' className='comeBtn'>Увійти</a>
-            <a href='#' className='registerBtnHome'>Зареєструватися</a>
+            <Link
+              to='/sign-in'
+              className='comeBtn'
+            >Увійти</Link>
+            <Link
+              to='/sign-up'
+              className='registerBtnHome'
+            >Зареєструватися</Link>
           </div>
         </header>
       </section>

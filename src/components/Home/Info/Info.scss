@@ -1,23 +1,11 @@
-.info {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  background-color: dodgerblue;
+.section-info {
+  background-color: #297FCA;
   color: white;
 }
-.App-info {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 400px;
-}
-.row {
-  padding: 0 70px 0 70px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  overflow: auto;
+.info {
+  padding: 0 !important;
+  max-width: 1230px !important;
+  box-sizing: border-box;
 }
 .info-title {
   font-size: 50px;
@@ -25,22 +13,25 @@
 }
 .infoContent {
   margin-top: 0;
-  padding-right: 180px;
-  font-size: 18px;
+  padding-right: 130px;
 }
 .rowInfo {
   padding: 100px 0 100px 0;
   text-align: left;
 }
+.rowImg {
+  text-align: right;
+}
 .registerBtn {
   background-color: white;
-  color: dodgerblue;
+  color: #297FCA;
   padding: 10px 30px;
   margin: 30px 0 30px 0;
   border-radius: 5px;
-  border: 1px solid dodgerblue;
+  border: 1px solid #297FCA;
   display: inline-block;
   font-size: 18px;
+  text-decoration: none;
   transition: 0.5s;
 }
 .registerBtn:hover {
@@ -53,24 +44,52 @@
   color: white;
   margin: 30px 0 30px 0;
   padding: 10px 30px;
-  font-size: 18px;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
+  .app-info {
+    margin-right: 0;
+  }
   .infoContent {
-    padding: 0;
+    padding-right: 50px;
+  }
+  .rowImg {
+    text-align: center;
+    max-width: 500px;
+  }
+}
+@media (max-width: 1080px) {
+  img {
+    max-width: 450px;
+  }
+  .info-title {
+    font-size: 40px;
   }
   .rowInfo {
-    padding: 50px 0 50px 0;
-    text-align: center;
+    padding: 50px;
+  }
+}
+@media (max-width: 950px) {
+  img {
+    max-width: 400px;
   }
   .info-title {
     font-size: 35px;
-    margin: 20px 0 20px 0;
   }
-  .row {
-    flex-direction: column;
+  .rowInfo {
+    padding: 40px;
   }
-  .rowImg {
-    padding: 0 0 20px 0;
+}
+@media (max-width: 850px) {
+  .app-info {
+    margin-left: 0;
+  }
+  .info {
+    font-size: 16px;
+  }
+  img {
+    max-width: 350px;
+  }
+  .registerBtn {
+    padding: 8px 20px;
   }
 }

@@ -10,7 +10,7 @@ class Header extends Component {
       <section className='section-header'>
         <Container className='header'>
           <Row align='center' className='app-header'>
-            <Col lg={2} md={2} className='block'>
+            <Col md={2} className='block'>
               <div>
                 <Link to='/' className='logo header-block'>
                   <i className='material-icons logo-icon'>copyright</i>
@@ -18,7 +18,7 @@ class Header extends Component {
                 </Link>
               </div>
             </Col>
-            <Col lg={5} md={5} className='block'>
+            <Col md={5} className='block'>
               <div className='nav header-block'>
                 <i className='material-icons'>whatshot</i>
                 <NavLink
@@ -33,9 +33,9 @@ class Header extends Component {
                 >Мрії(проекти)</NavLink>
               </div>
             </Col>
-            <Col lg={5} md={5} className='block'>
+            <Col md={5} className='block'>
               <div className='btn header-block'>
-                <i className='material-icons'>search</i>
+                <i className='material-icons search'>search</i>
                 <Link
                   to='/sign-in'
                   className='comeBtn'

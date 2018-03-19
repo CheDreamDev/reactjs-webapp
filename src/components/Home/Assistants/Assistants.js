@@ -9,7 +9,7 @@ class Assistants extends Component {
         <div className='container'>
           <div className='row-wrap'>
             <div className='row-assistants'>
-              <img src='' className='icon' alt='icon' />
+              <i className='material-icons'>account_circle</i>
               <div className='text-block'>
                 <h4>Somebody допомагає</h4>
                 <h3>Назва проекту</h3>
@@ -17,7 +17,7 @@ class Assistants extends Component {
               </div>
             </div>
             <div className='row-assistants'>
-              <img src='' className='icon' alt='icon' />
+              <i className='material-icons'>account_circle</i>
               <div className='text-block'>
                 <h4>Somebody допомагає</h4>
                 <h3>Назва проекту</h3>
@@ -25,7 +25,7 @@ class Assistants extends Component {
               </div>
             </div>
             <div className='row-assistants'>
-              <img src='' className='icon' alt='icon' />
+              <i className='material-icons'>account_circle</i>
               <div className='text-block'>
                 <h4>Somebody допомагає</h4>
                 <h3>Назва проекту</h3>
@@ -33,7 +33,7 @@ class Assistants extends Component {
               </div>
             </div>
             <div className='row-assistants'>
-              <img src='' className='icon' alt='icon' />
+              <i className='material-icons'>account_circle</i>
               <div className='text-block'>
                 <h4>Somebody допомагає</h4>
                 <h3>Назва проекту</h3>

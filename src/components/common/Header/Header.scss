@@ -1,76 +1,92 @@
 .header {
-  color: dodgerblue;
-  box-sizing: border-box;
-}
-.copyright {
-  font-size: 50px;
-}
-.App-header {
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  text-align: center;
+  padding: 0 !important;
+  max-width: 1200px !important;
   font-size: 18px;
+}
+.app-header {
+  margin: 0 !important;
+}
+.block {
+  padding: 0 !important;
+}
+.header-block {
+  color: #297FCA;
+  max-height: 90px;
   display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 400px;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  align-content: center;
-  justify-content: space-around;
+}
+.logo {
+  text-decoration: none;
 }
 .logo-title {
-  margin-left: 15px;
+  margin-left: 10px;
 }
-.logo-wrap {
-  display: flex;
-  flex-direction: row;
+.nav {
   justify-content: center;
-  align-items: center;
+}
+.btn {
+  justify-content: flex-end;
+}
+.material-icons {
+  font-size: 30px;
+}
+.logo-icon {
+  font-size: 40px !important;
 }
 .dreamBtn {
   margin: 30px 0 30px 30px;
   text-decoration: none;
-  color: dodgerblue;
+  color: #297FCA;
+}
+.addBtn {
+  margin: 30px 0 30px 15px;
 }
 .dreamBtn:hover {
-  border-bottom: 1px solid dodgerblue;
+  border-bottom: 1px solid #297FCA;
 }
 .registerBtnHome {
   text-decoration: none;
-  background-color: dodgerblue;
+  background-color: #297FCA;
   color: white;
   padding: 10px 30px;
   margin: 30px 0 30px 25px;
   border-radius: 5px;
-  border: 1px solid dodgerblue;
+  border: 1px solid #297FCA;
   display: inline-block;
-  font-size: 18px;
   transition: 0.5s;
 }
 .registerBtnHome:hover {
   text-decoration: none;
-  color: dodgerblue;
+  color: #297FCA;
   background-color: transparent;
-  border-color: dodgerblue;
+  border-color: #297FCA;
 }
 .comeBtn {
   text-decoration: none;
-  color: dodgerblue;
+  color: #297FCA;
   padding: 10px 30px;
-  margin: 30px 0 30px 25px;
-  border: 1px solid dodgerblue;
+  margin: 30px 0 30px 15px;
+  border: 1px solid #297FCA;
   border-radius: 5px;
   display: inline-block;
-  font-size: 18px;
   transition: 0.5s;
 }
 .comeBtn:hover {
   text-decoration: none;
   color: white;
-  background-color: dodgerblue;
+  background-color: #297FCA;
   border-color: white;
 }
-
-
+@media (max-width: 980px) {
+  .header {
+    font-size: 16px;
+  }
+  .comeBtn {
+    padding: 8px 20px;
+  }
+  .registerBtnHome {
+    padding: 8px 20px;
+  }
+}

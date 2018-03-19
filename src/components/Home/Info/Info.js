@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './Info.css'
 import sky from '../../../assets/images/sky.jpg'
+import { Link } from 'react-router-dom'
 
 class Info extends Component {
   render () {
@@ -14,8 +15,14 @@ class Info extends Component {
               <p className='infoContent'>Pain may sometimes be the reason why people change. Getting
                 bad grades make you realize that you need to study. Debts remind
                 you of your inability to look a source of income</p>
-              <a href='#' className='registerBtn'>Зареєструватися</a>
-              <a href='#' className='btnInfo'>Як це працює</a>
+              <Link
+                to='/sign-up'
+                className='registerBtn'
+              >Зареєструватися</Link>
+              <Link
+                to='/about'
+                className='btnInfo'
+              >Як це працює</Link>
             </div>
             <div className='rowImg'>
               <img className='sky' src={sky} alt='sky' />

@@ -1,0 +1,102 @@
+.header {
+  padding: 0 !important;
+  max-width: 1200px !important;
+}
+.app-header {
+  margin: 0 !important;
+}
+.block {
+  padding: 0 !important;
+}
+.header-block {
+  color: #297FCA;
+  max-height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  text-decoration: none;
+}
+.logo-title {
+  margin-left: 10px;
+}
+.nav {
+  justify-content: center;
+}
+.btn {
+  justify-content: flex-end;
+}
+.material-icons {
+  font-size: 30px;
+}
+.logo-icon {
+  font-size: 40px !important;
+}
+.search {
+  cursor: pointer;
+}
+.dreamBtn {
+  margin: 30px 0 30px 30px;
+  text-decoration: none;
+  color: #297FCA;
+}
+.addBtn {
+  margin: 30px 0 30px 15px;
+}
+.dreamBtn:hover {
+  border-bottom: 1px solid #297FCA;
+}
+.registerBtnHome {
+  text-decoration: none;
+  background-color: #297FCA;
+  color: white;
+  padding: 10px 30px;
+  margin: 30px 0 30px 25px;
+  border-radius: 5px;
+  border: 1px solid #297FCA;
+  display: inline-block;
+  transition: 0.5s;
+}
+.registerBtnHome:hover {
+  text-decoration: none;
+  color: #297FCA;
+  background-color: transparent;
+  border-color: #297FCA;
+}
+.comeBtn {
+  text-decoration: none;
+  color: #297FCA;
+  padding: 10px 30px;
+  margin: 30px 0 30px 15px;
+  border: 1px solid #297FCA;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.comeBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #297FCA;
+  border-color: white;
+}
+@media (max-width: 1200px) {
+  .header-block {
+    justify-content: center;
+  }
+}
+@media (max-width: 980px) {
+  .header {
+    font-size: 16px;
+  }
+  .header-block {
+    justify-content: center;
+  }
+  .comeBtn {
+    padding: 8px 20px;
+  }
+  .registerBtnHome {
+    padding: 8px 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.assistants {
+  width: 100%;
+  height: auto;
+  color: dodgerblue;
+  background-color: #e8e8e8;
+}
+.row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  justify-content: space-around;
+}
+.row-assistants {
+  max-width: 300px;
+  padding: 15px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text-block {
+  text-align: left;
+}
+

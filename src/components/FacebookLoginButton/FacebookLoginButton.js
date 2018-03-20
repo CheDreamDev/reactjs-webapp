@@ -3,11 +3,10 @@ import FacebookLogin from 'react-facebook-login'
 import './FacebookLoginButton.css'
 
 const Icon = () => (
-    <img className='fb-icon' src="" alt="" />
-  )
+  <img className='fb-icon' src='' alt='' />
+)
 
 export default class FacebookLoginButton extends Component {
-
   constructor (props) {
     super(props)
     this.state = {
@@ -29,7 +28,7 @@ export default class FacebookLoginButton extends Component {
     return (!this.state.isLogged ? <div>
       <FacebookLogin
         appId='748214505382810'
-        autoLoad={true}
+        autoLoad
         fields='name,email,picture'
         callback={this.facebookCallback}
         size='small'
@@ -41,4 +40,3 @@ export default class FacebookLoginButton extends Component {
     </div> : `Logged in as ${this.props.userData.FBName} with token: ${this.props.userData.FBToken}`)
   }
 }
-

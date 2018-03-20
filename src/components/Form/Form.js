@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import { Field, reduxForm } from 'redux-form'
+// import { Field, reduxForm } from 'redux-form'
 import DatePicker from 'react-datepicker'
 import moment from 'moment'
 
@@ -7,8 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css'
 import './Form.css'
 
 class Form extends Component {
-
-  constructor(props){
+  constructor (props) {
     super(props)
     this.state = {
       date: moment()
@@ -16,18 +15,18 @@ class Form extends Component {
     this.dateChanged = this.dateChanged.bind(this)
   }
 
-  dateChanged(date){
+  dateChanged (date) {
     this.setState({
       date: date
     })
   }
 
-  render() {
+  render () {
     return (
       <div className='date'>
         <DatePicker selected={this.state.date}
-                    onChange={this.dateChanged}
-                    dateFormat="YYYY/MM/DD"
+          onChange={this.dateChanged}
+          dateFormat='YYYY/MM/DD'
         />
       </div>
     )

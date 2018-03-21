@@ -1,13 +1,7 @@
+@import '../../../themes/utils/varibles.scss';
+
 .section-dreams {
-  color: #297FCA;
-}
-.dreams {
-  padding: 0 !important;
-  max-width: 1230px !important;
-  box-sizing: border-box;
-}
-.app-dreams,.blockDreams {
-  margin: 0 auto !important;
+  color: $colorText;
 }
 .rowTitle {
   margin: 0 auto;
@@ -21,13 +15,12 @@
 .btnUncover {
   padding-left: 913px;
   margin: 80px 0 15px 0;
-  color: #297FCA;
+  color: $colorText;
 }
 .rowDreams {
   max-width: 389px !important;
-  border: 1px solid #297FCA;
-  padding: 0 !important;
-  margin: 0 31px 0 0 !important;
+  border: 1px solid $colorBorder;
+  margin: 0 31px 0 0;
 }
 .infoDreams {
   margin: 0 18px 0 18px;
@@ -43,7 +36,7 @@
   margin-right: 5px;
 }
 hr {
-  border: 0.5px solid #297FCA;;
+  border: 0.5px solid $colorBorder;
   opacity: 0.4;
 }
 .titleDreams {
@@ -76,7 +69,7 @@ hr {
   }
   .rowDreams {
     max-width: 385px !important;
-    margin: 0 20px 0 0 !important;
+    margin: 0 20px 0 0;
   }
 }
 @media (max-width: 1215px) {
@@ -109,16 +102,9 @@ hr {
   .photoDream {
     max-width: 400px;
   }
-  .newDreams {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 400px !important;
-    justify-content: center;
-  }
   .rowDreams {
     max-width: 400px !important;
-    flex: 1 1 400px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
   }
   .infoDreams {
     font-size: 16px;
@@ -129,14 +115,11 @@ hr {
   .btnUncover {
     padding-left: 530px;
   }
-  .rowTitle {
-    margin: 0 auto !important;
-  }
 }
 @media (max-width: 850px) {
   .rowDreams {
     max-width: 380px !important;
-    margin: 0 15px 10px 0 !important;
+    margin: 0 15px 10px 0;
   }
   .photoDream {
     max-width: 380px;

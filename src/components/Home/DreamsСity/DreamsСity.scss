@@ -1,6 +1,3 @@
-.dreamCity {
-  flex-wrap: nowrap !important;
-}
 .btnDreamscity {
   padding-left: 402px;
 }
@@ -20,12 +17,6 @@
   }
 }
 @media (max-width: 1080px) {
-  .blockDreams {
-    display: flex;
-    flex-wrap: wrap !important;
-    flex: 1 1 400px !important;
-    justify-content: center;
-  }
   .btnDreamscity {
     padding-left: 238px;
   }

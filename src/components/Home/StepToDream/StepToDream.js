@@ -47,13 +47,13 @@ class StepToDream extends Component {
   render () {
     return (
       <section className='section-dreams'>
-        <Container className='dreams'>
-          <Row className='app-dreams'>
-            <div className='rowTitle'>
+        <Container className='dreams block container'>
+          <Row className='app-dreams row-center'>
+            <div className='rowTitle row-center'>
               <h3 className='textTitle'>За крок до мрії</h3>
               <a href='#' className='btnUncover btnStepToDreams'>ПОКАЗАТИ БІЛЬШЕ</a>
             </div>
-            <Row align='center' className='blockDreams stepToDreams'>
+            <Row align='center' className='blockDreams wrap row-center'>
               {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}
             </Row>
           </Row>

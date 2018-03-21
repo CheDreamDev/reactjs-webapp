@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0 ;
+  font-size: 18px;
+}
+.container {
+  max-width: 1230px !important;
+}
+.row {
+  margin: 0 !important;
+}
+.row-center {
+  margin: 0 auto !important;
+}
+.block {
+  padding: 0 !important;
+}
+@media (max-width: 1080px) {
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px !important;
+    justify-content: center;
+  }
+  .row-wrap {
+    flex: 1 1 400px !important;
+  }
+}

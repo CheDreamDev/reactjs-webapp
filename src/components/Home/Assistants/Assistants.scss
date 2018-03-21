@@ -1,11 +1,8 @@
+@import '../../../themes/utils/varibles.scss';
+
 .section-assistants {
-  background-color: #F0F8FF;
-  color: #297FCA;
-}
-.assistants {
-  padding: 0 !important;
-  max-width: 1230px !important;
-  box-sizing: border-box;
+  background-color: $colorBackgroundBlue;
+  color: $colorText;
 }
 .row-assistants {
   padding: 10px;
@@ -28,26 +25,13 @@
   font-size: 40px;
   margin: 0 5px 40px 0;
 }
-@media (max-width: 1180px) {
-  .app-assistants {
-    margin: 0 !important;
-  }
-}
-@media (max-width: 1080px) {
-  .app-assistants {
-    margin: 0 !important;
-  }
-}
-@media (max-width: 950px) {
-  .app-assistants {
-    margin: 0 !important;
-  }
-}
 @media (max-width: 850px) {
-  .app-assistants {
-    margin: 0 !important;
-  }
   .assistants {
     font-size: 16px;
   }
 }
+
+
+
+
+

@@ -7,8 +7,8 @@ class Assistants extends Component {
   render () {
     return (
       <section className='section-assistants'>
-        <Container className='assistants'>
-          <Row className='app-assistants'>
+        <Container className='assistants container block'>
+          <Row className='app-assistants row'>
             <Col md={3} className='row-assistants'>
               <i className='material-icons account'>account_circle</i>
               <div className='text-block'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Col } from 'react-grid-system'
 
 const DreamsSingleItem = props => (
-  <Col md={4} className='rowDreams'>
+  <Col md={4} className='rowDreams block row-wrap'>
     <img className='photoDream' src={props.photo} alt='sky' />
     <div className='infoDreams'>
       <p className='titleDreams'>{props.title}</p>

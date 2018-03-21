@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './DreamsСity.css'
+import { Container, Row } from 'react-grid-system'
 import DreamsSingleItem from '../../common/DreamsSingleItem/DreamsSingleItem'
+import sky from '../../../assets/images/sky.jpg'
 
 class DreamsСity extends Component {
   constructor (props) {
@@ -10,7 +12,7 @@ class DreamsСity extends Component {
       cards: [
         {
           id: 1,
-          photo: '',
+          photo: sky,
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
           city: 'Черкаси',
@@ -20,7 +22,7 @@ class DreamsСity extends Component {
           work: 100
         }, {
           id: 2,
-          photo: '',
+          photo: sky,
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
           city: 'Черкаси',
@@ -30,7 +32,7 @@ class DreamsСity extends Component {
           work: 70
         }, {
           id: 3,
-          photo: '',
+          photo: sky,
           title: 'Створення парашутного спорт-клубу',
           author: 'John Doe',
           city: 'Черкаси',
@@ -44,16 +46,18 @@ class DreamsСity extends Component {
   }
   render () {
     return (
-      <section className='Dreams'>
-        <div className='container'>
-          <div className='rowTitle'>
-            <h3>Мрії твого міста (Найближчі до тебе мрії)</h3>
-            <a href='#' className='btnUncover'>Показати більше</a>
-          </div>
-          <div className='blockNewDreams'>
-            {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}
-          </div>
-        </div>
+      <section className='section-dreams'>
+        <Container className='dreams'>
+          <Row className='app-dreams'>
+            <div className='rowTitle'>
+              <h3 className='textTitle'>Мрії твого міста (Найближчі до тебе мрії)</h3>
+              <a href='#' className='btnUncover btnDreamscity'>ПОКАЗАТИ БІЛЬШЕ</a>
+            </div>
+            <Row align='center' className='blockDreams dreamCity'>
+              {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}
+            </Row>
+          </Row>
+        </Container>
       </section>
     )
   }

@@ -45,10 +45,7 @@
   margin: 30px 0 30px 0;
   padding: 10px 30px;
 }
-@media (max-width: 1200px) {
-  .app-info {
-    margin-right: 0;
-  }
+@media (max-width: 1280px) {
   .infoContent {
     padding-right: 50px;
   }
@@ -56,8 +53,14 @@
     text-align: center;
     max-width: 500px;
   }
+  .app-info {
+    margin: 0 !important;
+  }
 }
 @media (max-width: 1080px) {
+  .app-info {
+    margin: 0 !important;
+  }
   img {
     max-width: 450px;
   }
@@ -69,6 +72,9 @@
   }
 }
 @media (max-width: 950px) {
+  .app-info {
+    margin: 0 !important;
+  }
   img {
     max-width: 400px;
   }
@@ -81,7 +87,7 @@
 }
 @media (max-width: 850px) {
   .app-info {
-    margin-left: 0;
+    margin: 0 !important;
   }
   .info {
     font-size: 16px;

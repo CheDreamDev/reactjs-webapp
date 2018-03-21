@@ -1,0 +1,32 @@
+.dreamCity {
+  flex-wrap: nowrap !important;
+}
+.btnDreamscity {
+  padding-left: 402px;
+}
+@media (max-width: 1280px) {
+  .btnDreamscity {
+    padding-left: 530px;
+  }
+}
+@media (max-width: 1215px) {
+  .btnDreamscity {
+    padding-left: 384px;
+  }
+}
+@media (max-width: 1145px) {
+  .btnDreamscity {
+    padding-left: 389px;
+  }
+}
+@media (max-width: 1080px) {
+  .blockDreams {
+    display: flex;
+    flex-wrap: wrap !important;
+    flex: 1 1 400px !important;
+    justify-content: center;
+  }
+  .btnDreamscity {
+    padding-left: 238px;
+  }
+}

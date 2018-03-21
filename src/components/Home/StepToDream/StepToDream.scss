@@ -1,0 +1,28 @@
+.stepToDreams {
+  flex-wrap: nowrap !important;
+}
+.btnStepToDreams {
+  padding-left: 818px;
+}
+@media (max-width: 1215px) {
+  .btnStepToDreams {
+    padding-left: 678px;
+  }
+}
+@media (max-width: 1145px) {
+  .btnStepToDreams {
+    padding-left: 625px;
+  }
+}
+@media (max-width: 1080px) {
+  .blockDreams {
+    display: flex;
+    flex-wrap: wrap !important;
+    flex: 1 1 400px !important;
+    justify-content: center;
+  }
+  .btnStepToDreams {
+    padding-left: 474px;
+  }
+}
+

@@ -1,21 +1,146 @@
-.Dreams {
-  color: dodgerblue;
+.section-dreams {
+  color: #297FCA;
+}
+.dreams {
+  padding: 0 !important;
+  max-width: 1230px !important;
   box-sizing: border-box;
 }
+.app-dreams,.blockDreams {
+  margin: 0 auto !important;
+}
 .rowTitle {
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
 }
-.blockNewDreams {
+.textTitle {
+  font-size: 35px;
+  margin: 80px 0 15px 0;
+}
+.btnUncover {
+  padding-left: 913px;
+  margin: 80px 0 15px 0;
+  color: #297FCA;
+}
+.rowDreams {
+  max-width: 389px !important;
+  border: 1px solid #297FCA;
+  padding: 0 !important;
+  margin: 0 31px 0 0 !important;
+}
+.infoDreams {
+  margin: 0 18px 0 18px;
+  font-size: 16px;
+}
+.author {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  padding: 0;
+}
+.author-icon {
+  margin-right: 5px;
+}
+hr {
+  border: 0.5px solid #297FCA;;
+  opacity: 0.4;
+}
+.titleDreams {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.city,.done,.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.city,.resources {
+  margin: 0 0 16px 0;
+}
+.content {
+  margin-left: 120px;
 }
 .photoDream {
-  max-width: 350px;
+  max-width: 394px;
+}
+@media (max-width: 1280px) {
+  .textTitle {
+    font-size: 25px;
+    margin: 40px 0 10px 0;
+  }
+  .btnUncover {
+    padding-left: 890px;
+    margin: 40px 0 10px 0;
+  }
+  .rowDreams {
+    max-width: 385px !important;
+    margin: 0 20px 0 0 !important;
+  }
+}
+@media (max-width: 1215px) {
+  .rowDreams {
+    max-width: 350px !important;
+  }
+  .btnUncover {
+    padding-left: 750px;
+  }
+}
+@media (max-width: 1145px) {
+  .rowDreams {
+    max-width: 330px !important;
+  }
+  .btnUncover {
+    font-size: 16px;
+    padding-left: 680px;
+  }
+  .infoDreams {
+    font-size: 14px;
+  }
+  .titleDreams {
+    font-size: 16px;
+  }
+  .textTitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1080px) {
+  .photoDream {
+    max-width: 400px;
+  }
+  .newDreams {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px !important;
+    justify-content: center;
+  }
+  .rowDreams {
+    max-width: 400px !important;
+    flex: 1 1 400px !important;
+    margin-bottom: 10px !important;
+  }
+  .infoDreams {
+    font-size: 16px;
+  }
+  .titleDreams {
+    font-size: 18px;
+  }
+  .btnUncover {
+    padding-left: 530px;
+  }
+  .rowTitle {
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 850px) {
+  .rowDreams {
+    max-width: 380px !important;
+    margin: 0 15px 10px 0 !important;
+  }
+  .photoDream {
+    max-width: 380px;
+  }
 }
 
 

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './Testimonials.css'
+import { Container, Row, Col } from 'react-grid-system'
+import sky from '../../../assets/images/sky.jpg'
 
 class Testimonials extends Component {
   constructor (props) {
@@ -15,28 +17,28 @@ class Testimonials extends Component {
   }
   render () {
     return (
-      <section className='testimonials'>
-        <div className='container'>
-          <div className='block'>
-            <div className='blockTestimonials'>
-              <img src='' alt='icon' />
-              <h2>В нас все вийшло завдяки UDream</h2>
-              <p>Один добрий чоловік</p>
-              <p>Проект цього чоловіка</p>
-            </div>
-            <div className='blockSubscribe'>
-              <h3>Останні новини UDream</h3>
+      <section className='section-testimonials'>
+        <Container className='testimonials block container-max'>
+          <Row className='app-testimonials row-center'>
+            <Col md={12} className='blockTestimonials'>
+              <img src={sky} alt='sky' />
+              <h2 className='info-title title-testimonials' >В нас все вийшло завдяки UDream</h2>
+              <p className='counter'>Один добрий чоловік</p>
+              <p className='counter'>Проект цього чоловіка</p>
+            </Col>
+            <Col md={12} className='blockSubscribe'>
+              <h3 className='info-title'>Останні новини UDream</h3>
               <form onSubmit={this.submitFormHandler}>
-                <div>
-                  <input name='email' type='email' placeholder='Email' value={this.state.email} onChange={e => this.setState({ email: e.target.value })}
+                <div className='block-email'>
+                  <input className='inputTestimonials input' name='email' type='email' placeholder='Email' value={this.state.email} onChange={e => this.setState({ email: e.target.value })}
                   />
-                  <button type='submit'>Підписатися</button>
+                  <button className='inputTestimonials btn-block-email' type='submit'>Підписатися</button>
                 </div>
               </form>
               <p>2 рази в місяць, по суті і без спаму</p>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </section>
     )
   }

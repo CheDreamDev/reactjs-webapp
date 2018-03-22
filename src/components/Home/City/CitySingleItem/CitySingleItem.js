@@ -1,11 +1,14 @@
 import React from 'react'
+import { Col } from 'react-grid-system'
 
 const CitySingleItem = props => (
-  <div className='rowCity'>
+  <Col md={3} className='rowCity block row-wrap'>
     <img className='photoCity' src={props.photo} alt='sky' />
-    <h3>{props.title}</h3>
-    <div>{props.counter} мрії</div>
-  </div>
+    <div className='blockRowCity'>
+      <h3 className='titleRowCity'>{props.title}</h3>
+      <div className='counter'>{props.counter} мрії</div>
+    </div>
+  </Col>
 )
 
 export default CitySingleItem

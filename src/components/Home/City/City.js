@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './City.css'
+import { Container, Row } from 'react-grid-system'
 import CitySingleItem from './CitySingleItem/CitySingleItem'
 import sky from '../../../assets/images/sky.jpg'
 
@@ -36,15 +37,23 @@ class City extends Component {
   }
   render () {
     return (
-      <section className='Dreams'>
-        <div className='container'>
-          <div className='rowTitle'>
-            <h3>Міста з мріями</h3>
-            <a href='#' className='btnUncover'>Всі міста</a>
-          </div>
-          <div className='blockCity'>
-            {this.state.cards.map(card => <CitySingleItem key={card.id} {...card} />)}
-          </div>
+      <section className='city-dreams'>
+        <div className='line'>
+          <hr />
+        </div>
+        <Container className='city block container'>
+          <Row className='app-city row-center'>
+            <div className='rowTitle row-center'>
+              <h3 className='textTitle'>Міста з мріями</h3>
+              <a href='#' className='btnUncover btnCity'>ВСІ МІСТА</a>
+            </div>
+            <Row align='center' className='blockCity wrap row-center'>
+              {this.state.cards.map(card => <CitySingleItem key={card.id} {...card} />)}
+            </Row>
+          </Row>
+        </Container>
+        <div className='line'>
+          <hr />
         </div>
       </section>
     )

@@ -16,12 +16,26 @@
 }
 @media (max-width: 1215px) {
   .button {
+    margin: 30px 0 30px 43px;
+    padding: 10px 14px;
+  }
+}
+@media (max-width: 1145px) {
+  .button {
     padding: 10px 20px;
-    margin: 30px 0 30px 34px;
+    margin: 30px 0 30px 50px;
+  }
+}
+@media (max-width: 1080px) {
+  .block-btn {
+    text-align: center;
+  }
+  .button {
+    margin: 30px 10px;
   }
 }
 @media (max-width: 850px) {
   .button {
-    margin: 30px 0 30px 28px;
+    margin: 30px 28px;
   }
 }

@@ -1,7 +1,39 @@
-.blockBestDreams {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+@import '../../../themes/utils/varibles.scss';
+
+.section-bestDreams {
+  padding: 60px 0 60px 0;
 }
+.titleBestDreams {
+  color: $colorTextWhite;
+  text-decoration: none;
+  font-size: 30px;
+}
+.rowBestDreams {
+  max-height: 250px;
+  max-width: 562px;
+  position:relative;
+  line-height: 250px;
+}
+.rowBestDreams a {
+  position:absolute;
+  top: 0;
+  left: 30%;
+}
+.photoBestDreams {
+  width: 100%;
+}
+@media (max-width: 1080px) {
+  .rowBestDreams a {
+    left: 23%;
+  }
+  .app-bestDreams {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 850px) {
+  .rowBestDreams a {
+    left: 16%;
+  }
+}
+
 

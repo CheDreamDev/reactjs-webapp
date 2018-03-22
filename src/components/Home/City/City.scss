@@ -1,9 +1,72 @@
-.blockCity {
+@import '../../../themes/utils/varibles.scss';
+
+.app-city {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+}
+.city-dreams {
+  color: $colorText;
+}
+.line {
+  margin-top: 60px;
+}
+.btnCity {
+  padding-left: 850px;
+}
+.titleRowCity {
+  color: $colorTextWhite;
+}
+.counter {
+  color: $colorTextBlue;
+}
+.rowCity {
+  background-color: $colorBackground;
+  max-width: 291px !important;
+  border: 1px solid $colorBorder;
+  margin: 0 16px 0 0;
+}
+.blockRowCity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .photoCity {
-  max-width: 200px;
+  width: 100%;
+}
+.blockCity {
+  display: flex;
+}
+@media (max-width: 1280px) {
+  .btnCity {
+    padding-left: 910px;
+  }
+  .rowCity {
+    margin: 0 26px 0 0;
+  }
+}
+@media (max-width: 1215px) {
+  .rowCity {
+    max-width: 237px !important;
+  }
+  .btnCity {
+    padding-left: 698px;
+  }
+}
+@media (max-width: 1145px) {
+  .rowCity {
+    max-width: 237px !important;
+  }
+  .btnCity {
+    padding-left: 698px;
+  }
+}
+@media (max-width: 1080px) {
+  .app-city {
+    padding-left: 26px;
+  }
+  .blockCity {
+    max-height: 280px;
+  }
 }

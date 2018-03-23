@@ -20,7 +20,7 @@
 }
 .rowCity {
   background-color: $colorBackground;
-  max-width: 291px !important;
+  max-width: 291px;
   border: 1px solid $colorBorder;
   margin: 0 16px 0 0;
 }
@@ -34,65 +34,16 @@
 .photoCity {
   width: 100%;
 }
-@media (max-width: 1210px) {
+@media (max-width: 1230px) {
   .btnCity {
-    padding-left: 910px;
+    padding-left: 638px;
   }
   .rowCity {
-    margin: 0 22px 0 0;
-  }
-}
-@media (max-width: 1215px) {
-  .rowCity {
-    max-width: 237px !important;
-  }
-  .btnCity {
-    padding-left: 698px;
-  }
-}
-@media (max-width: 1145px) {
-  .rowCity {
-    max-width: 237px !important;
-  }
-  .btnCity {
-    padding-left: 698px;
-  }
-}
-@media (max-width: 1080px) {
-  .blockCity {
-    max-height: 280px;
-  }
-  .app-city {
-    padding: 0 0 510px 26px;
-  }
-  .rowCity {
-    max-width: 400px !important;
     margin: 0 22px 10px 0;
   }
-  .btnCity {
-    padding-left: 546px;
-  }
 }
-@media (max-width: 890px) {
-  .app-city {
-    padding: 0 0 510px 0;
-  }
-  .rowCity {
-    max-width: 400px !important;
-    margin: 0 22px 10px 0;
-  }
+@media (max-width: 950px) {
   .btnCity {
-    padding-left: 546px;
-  }
-}
-@media (max-width: 850px) {
-  .app-city {
-    padding: 0 0 460px 0;
-  }
-  .rowCity {
-    max-width: 352px !important;
-  }
-  .btnCity {
-    padding-left: 490px;
+    padding-left: 358px;
   }
 }

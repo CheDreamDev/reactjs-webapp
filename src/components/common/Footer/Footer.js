@@ -9,7 +9,10 @@ class Footer extends Component {
           <div className='blockFooter'>
             <hr/>
             <div className='menuFooter'>
-              <p className='logo-title'><span className="copyright">&copy;</span> UDream</p>
+              <p className='logo-title'>
+                <span className='copyright'>&copy;</span>
+                 UDream
+              </p>
               <div className='menu-wrap'>
                 <div className='block-menu'>
                   <h3>Про нас</h3>
@@ -44,7 +47,7 @@ class Footer extends Component {
             <hr/>
             <div className='textFooter'>
               <p>&copy; UDream 2018</p>
-              <p>Designed by</p>
+              <p className='designed-by'>Designed by</p>
             </div>
           </div>
         </div>

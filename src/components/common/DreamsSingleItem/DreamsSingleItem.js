@@ -1,8 +1,8 @@
 import React from 'react'
-import { Col } from 'react-grid-system'
+// import { Col } from 'react-grid-system'
 
 const DreamsSingleItem = props => (
-  <Col md={4} className='rowDreams block row-wrap'>
+  <div className='rowDreams block'>
     <img className='photoDream' src={props.photo} alt='sky' />
     <div className='infoDreams'>
       <p className='titleDreams'>{props.title}</p>
@@ -31,7 +31,7 @@ const DreamsSingleItem = props => (
         </div>
       </div>
     </div>
-  </Col>
+  </div>
 )
 
 export default DreamsSingleItem

@@ -18,7 +18,7 @@
   color: $colorText;
 }
 .rowDreams {
-  max-width: 389px !important;
+  max-width: 389px;
   border: 1px solid $colorBorder;
   margin: 0 31px 0 0;
 }
@@ -64,30 +64,31 @@ hr {
     margin: 40px 0 10px 0;
   }
   .btnUncover {
-    padding-left: 890px;
+    padding-left: 554px;
     margin: 40px 0 10px 0;
   }
   .rowDreams {
-    max-width: 385px !important;
     margin: 0 20px 0 0;
+  }
+}
+@media (max-width: 1230px) {
+  .rowDreams {
+    margin-bottom: 10px;
+    max-width: 410px;
+  }
+  .infoDreams {
+    font-size: 16px;
+  }
+  .titleDreams {
+    font-size: 18px;
   }
 }
 @media (max-width: 1215px) {
   .rowDreams {
-    max-width: 350px !important;
-  }
-  .btnUncover {
-    padding-left: 750px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 1145px) {
-  .rowDreams {
-    max-width: 330px !important;
-  }
-  .btnUncover {
-    font-size: 16px;
-    padding-left: 680px;
-  }
   .infoDreams {
     font-size: 14px;
   }
@@ -99,11 +100,7 @@ hr {
   }
 }
 @media (max-width: 1080px) {
-  .photoDream {
-    max-width: 400px;
-  }
   .rowDreams {
-    max-width: 400px !important;
     margin-bottom: 10px;
   }
   .infoDreams {
@@ -112,14 +109,13 @@ hr {
   .titleDreams {
     font-size: 18px;
   }
-  .btnUncover {
-    padding-left: 530px;
-  }
 }
 @media (max-width: 850px) {
   .rowDreams {
-    max-width: 380px !important;
     margin: 0 15px 10px 0;
+  }
+  .btnUncover {
+    padding-left: 448px;
   }
 }
 

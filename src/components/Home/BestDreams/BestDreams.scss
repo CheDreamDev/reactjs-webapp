@@ -30,6 +30,11 @@
     padding-left: 40px;
   }
 }
+@media (max-width: 890px) {
+  .app-bestDreams {
+    padding: 0 8px 0 10px;
+  }
+}
 @media (max-width: 850px) {
   .rowBestDreams a {
     left: 16%;

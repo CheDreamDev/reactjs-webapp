@@ -1,16 +1,10 @@
 @import '../../../themes/utils/varibles.scss';
 
-.city {
-  display: block;
-}
 .city-dreams {
   color: $colorText;
 }
 .line {
   margin-top: 60px;
-}
-.btnCity {
-  padding-left: 850px;
 }
 .titleRowCity {
   color: $colorTextWhite;
@@ -20,7 +14,7 @@
 }
 .rowCity {
   background-color: $colorBackground;
-  max-width: 291px;
+  max-width: 286px;
   border: 1px solid $colorBorder;
   margin: 0 16px 0 0;
 }
@@ -35,15 +29,8 @@
   width: 100%;
 }
 @media (max-width: 1230px) {
-  .btnCity {
-    padding-left: 638px;
-  }
   .rowCity {
-    margin: 0 22px 10px 0;
+    margin: 0 16px 10px 0;
   }
 }
-@media (max-width: 950px) {
-  .btnCity {
-    padding-left: 358px;
-  }
-}
+

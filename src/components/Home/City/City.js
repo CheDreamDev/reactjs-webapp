@@ -41,11 +41,11 @@ class City extends Component {
         <div className='line'>
           <hr />
         </div>
-        <Container className='city block container'>
-          <Row className='app-city row-center'>
-            <div className='rowTitle row-center'>
+        <Container className='city container'>
+          <Row align='center' className='app-city row'>
+            <div className='title-dreams'>
               <h3 className='textTitle'>Міста з мріями</h3>
-              <a href='#' className='btnUncover btnCity'>ВСІ МІСТА</a>
+              <a href='#' className='btnUncover'>всі міста</a>
             </div>
             <Row align='center' className='blockCity wrap row-center'>
               {this.state.cards.map(card => <CitySingleItem key={card.id} {...card} />)}

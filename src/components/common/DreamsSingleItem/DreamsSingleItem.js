@@ -10,7 +10,7 @@ const DreamsSingleItem = props => (
         <i className='material-icons author-icon'>account_circle</i>
         <p>{props.author}</p>
       </div>
-      <div className='city'>
+      <div className='cityDream'>
         <div>{props.city}</div>
         <div>{props.category}</div>
       </div>

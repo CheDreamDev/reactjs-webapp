@@ -3,22 +3,24 @@
 .section-dreams {
   color: $colorText;
 }
-.rowTitle {
-  margin: 0 auto;
+.title-dreams {
   display: flex;
-  align-items: center;
-}
-.textTitle {
-  font-size: 35px;
-  margin: 80px 0 15px 0;
+  width: 100%;
+  margin: 60px 0 20px 0;
+  justify-content: space-between;
+  .textTitle {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+  }
 }
 .btnUncover {
-  padding-left: 913px;
-  margin: 80px 0 15px 0;
+  text-transform: uppercase;
+  padding: 16px 0 0 0;
   color: $colorText;
 }
 .rowDreams {
-  max-width: 389px;
+  max-width: 377px;
   border: 1px solid $colorBorder;
   margin: 0 31px 0 0;
 }
@@ -44,12 +46,12 @@ hr {
   font-weight: bolder;
   margin-bottom: 0;
 }
-.city,.done,.content {
+.cityDream,.done,.content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.city,.resources {
+.cityDream,.resources {
   margin: 0 0 16px 0;
 }
 .content {
@@ -58,23 +60,20 @@ hr {
 .photoDream {
   width: 100%;
 }
-@media (max-width: 1280px) {
-  .textTitle {
-    font-size: 25px;
-    margin: 40px 0 10px 0;
-  }
-  .btnUncover {
-    padding-left: 554px;
-    margin: 40px 0 10px 0;
-  }
-  .rowDreams {
-    margin: 0 20px 0 0;
-  }
-}
 @media (max-width: 1230px) {
   .rowDreams {
     margin-bottom: 10px;
     max-width: 410px;
+  }
+  .title-dreams {
+    justify-content: space-around;
+    margin: 60px 0 10px 0;
+    .textTitle {
+      font-size: 25px;
+    }
+  }
+  .btnUncover {
+    padding: 7px 0 0 0;
   }
   .infoDreams {
     font-size: 16px;
@@ -95,27 +94,10 @@ hr {
   .titleDreams {
     font-size: 16px;
   }
-  .textTitle {
-    font-size: 20px;
-  }
 }
-@media (max-width: 1080px) {
+@media (max-width: 915px) {
   .rowDreams {
-    margin-bottom: 10px;
-  }
-  .infoDreams {
-    font-size: 16px;
-  }
-  .titleDreams {
-    font-size: 18px;
-  }
-}
-@media (max-width: 850px) {
-  .rowDreams {
-    margin: 0 15px 10px 0;
-  }
-  .btnUncover {
-    padding-left: 448px;
+    max-width: 352px;
   }
 }
 

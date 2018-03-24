@@ -8,14 +8,14 @@ class Categories extends Component {
     return (
       <section className='section-categories'>
         <Container className='categories container block'>
-          <Row className='app-categories row-center'>
-            <Col md={12} className='block-btn block'>
+          <Row className='app-categories row'>
+            <Col md={12} className='block-btn'>
               <a href='#' className='registerBtnHome button'>Категорія спорт</a>
               <a href='#' className='registerBtnHome button'>Категорія спорт</a>
               <a href='#' className='registerBtnHome button'>Категорія спорт</a>
               <a href='#' className='registerBtnHome button'>Категорія спорт</a>
               <a href='#' className='registerBtnHome button'>Категорія спорт</a>
-              <a href='#' className='comeBtn btn-categories button'>Всі категорії</a>
+              <a href='#' className='comeBtn button'>Всі категорії</a>
             </Col>
           </Row>
         </Container>

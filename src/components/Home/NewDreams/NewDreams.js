@@ -47,11 +47,11 @@ class NewDreams extends Component {
   render () {
     return (
       <section className='section-dreams'>
-        <Container className='dreams block container'>
-          <Row className='app-dreams row-center'>
-            <div className='rowTitle row-center'>
+        <Container className='dreams container'>
+          <Row align='center' className='app-dreams row'>
+            <div className='title-dreams'>
               <h3 className='textTitle'>Нові мрії</h3>
-              <a href='#' className='btnUncover'>ПОКАЗАТИ БІЛЬШЕ</a>
+              <a href='#' className='btnUncover'>показати більше</a>
             </div>
             <Row align='center' className='blockDreams wrap row-center'>
               {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}

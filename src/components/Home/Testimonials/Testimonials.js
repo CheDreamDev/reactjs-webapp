@@ -19,7 +19,7 @@ class Testimonials extends Component {
     return (
       <section className='section-testimonials'>
         <Container className='testimonials block container-max'>
-          <Row className='app-testimonials row-center'>
+          <Row align='center' className='app-testimonials row'>
             <Col md={12} className='blockTestimonials'>
               <img src={sky} alt='sky' />
               <h2 className='info-title title-testimonials' >В нас все вийшло завдяки UDream</h2>

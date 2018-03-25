@@ -65,22 +65,7 @@
   background-color: transparent;
   border-color: #297FCA;
 }
-.comeBtn {
-  text-decoration: none;
-  color: #297FCA;
-  padding: 10px 30px;
-  margin: 30px 0 30px 15px;
-  border: 1px solid #297FCA;
-  border-radius: 5px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.comeBtn:hover {
-  text-decoration: none;
-  color: white;
-  background-color: #297FCA;
-  border-color: white;
-}
+
 @media (max-width: 1200px) {
   .header-block {
     justify-content: center;

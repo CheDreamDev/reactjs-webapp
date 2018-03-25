@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import FacebookLogin from 'react-facebook-login'
 import './FacebookLoginButton.css'
 
-const Icon = () => (
-  <img className='fb-icon' src='' alt='' />
-)
-
 export default class FacebookLoginButton extends Component {
   constructor (props) {
     super(props)
@@ -17,6 +13,7 @@ export default class FacebookLoginButton extends Component {
   }
 
   facebookCallback (response) {
+    console.log(this.props)
     this.props.facebookLogin(response)
     this.setState({
       isLogged: true
@@ -24,7 +21,6 @@ export default class FacebookLoginButton extends Component {
   }
 
   render () {
-    console.log(this.props)
     return (!this.state.isLogged ? <div>
       <FacebookLogin
         appId='748214505382810'
@@ -33,10 +29,9 @@ export default class FacebookLoginButton extends Component {
         callback={this.facebookCallback}
         size='small'
         version='2.12'
-        icon={<Icon />}
-        cssClass='fb-login'
+        cssClass='comeBtn'
         textButton={'Увійти'}
       />
-    </div> : `Logged in as ${this.props.userData.FBName} with token: ${this.props.userData.FBToken}`)
+    </div> : `${this.props.userData.FBName.split(' ')[0]}`) // Token: this.props.userData.FBToken
   }
 }

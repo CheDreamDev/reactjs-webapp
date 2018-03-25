@@ -1,4 +1,4 @@
-export const FACEBOOK_LOGIN = '_FACEBOOK_LOGIN'
+export const FACEBOOK_LOGIN = 'FACEBOOK_LOGIN'
 
 export function facebookLogin (response) {
   return dispatch => {

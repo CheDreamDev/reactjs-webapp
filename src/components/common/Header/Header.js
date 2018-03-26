@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import FBLogin from '../../FacebookLoginButton/FacebookLoginButtonContainer'
 // import PropTypes from 'prop-types'
 import './Header.css'
 import { Container, Row, Col } from 'react-grid-system'
@@ -36,10 +37,7 @@ class Header extends Component {
             <Col md={5} className='block'>
               <div className='btn header-block'>
                 <i className='material-icons search'>search</i>
-                <Link
-                  to='/sign-in'
-                  className='comeBtn'
-                >Увійти</Link>
+                <FBLogin />
                 <Link
                   to='/sign-up'
                   className='registerBtnHome'

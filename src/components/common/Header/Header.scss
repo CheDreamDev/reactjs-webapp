@@ -57,22 +57,6 @@
   background-color: transparent;
   border-color: $colorBorder;
 }
-.comeBtn {
-  text-decoration: none;
-  color: $colorText;
-  padding: 10px 30px;
-  margin: 30px 0 30px 15px;
-  border: 1px solid $colorBorder;
-  border-radius: 5px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.comeBtn:hover {
-  text-decoration: none;
-  color: $colorTextWhite;
-  background-color: $colorBackground;
-  border-color: $colorBorderWhite
-}
 @media (max-width: 1200px) {
   .header-block {
     justify-content: center;

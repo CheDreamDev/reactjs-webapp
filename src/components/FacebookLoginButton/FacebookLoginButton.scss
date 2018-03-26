@@ -1,17 +1,16 @@
-.fb-login {
-	height: 42px;
-	width: 140px;
-	border-radius: 4px;
-	background-color: #297FCA;
-	color: #FFFFFF;
-	font-family: Roboto, sans-serif;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 16px;
-	text-align: center;
-
-	.fb-icon {
-		height: 0.9%;
-		width: 0.94%;
-	}
+.comeBtn {
+  text-decoration: none;
+  color: #297FCA;
+  padding: 10px 30px;
+  margin: 30px 0 30px 15px;
+  border: 1px solid #297FCA;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.comeBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #297FCA;
+  border-color: white;
 }

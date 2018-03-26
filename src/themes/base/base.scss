@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0 ;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+.container {
+  max-width: 1230px !important;
+}
+.container-max {
+  max-width: 1440px !important;
+}
+.row {
+  margin: 0 !important;
+}
+.row-center {
+  margin: 0 auto !important;
+}
+.block {
+  padding: 0 !important;
+}
+@media (max-width: 1230px) {
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px !important;
+    justify-content: center;
+  }
+  .row-wrap {
+    flex: 1 1 400px !important;
+  }
+}

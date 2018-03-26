@@ -1,9 +1,36 @@
-.blockCity {
+@import '../../../themes/utils/varibles.scss';
+
+.city-dreams {
+  color: $colorText;
+}
+.line {
+  margin-top: 60px;
+}
+.titleRowCity {
+  color: $colorTextWhite;
+}
+.counter {
+  color: $colorTextBlue;
+}
+.rowCity {
+  background-color: $colorBackground;
+  max-width: 286px;
+  border: 1px solid $colorBorder;
+  margin: 0 16px 0 0;
+}
+.blockRowCity {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .photoCity {
-  max-width: 200px;
+  width: 100%;
 }
+@media (max-width: 1230px) {
+  .rowCity {
+    margin: 0 16px 10px 0;
+  }
+}
+

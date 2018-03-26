@@ -1,4 +1,72 @@
-.testimonials {
-  width: 100%;
+@import '../../../themes/utils/varibles.scss';
+
+.section-testimonials {
   text-align: center;
+}
+.title-testimonials {
+  color: $colorTextWhite;
+}
+.block-email {
+  position: relative;
+}
+.block-email button {
+  position: absolute;
+  top: 6.1%;
+  left: 56.5%;
+  padding: 15px 30px;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
+  display: inline-block;
+  transition: 0.5s;
+  outline: none;
+}
+.block-email button:hover {
+  text-decoration: none;
+  color: $colorText;
+  background-color: transparent;
+  border-color: $colorBorder;
+}
+.inputTestimonials {
+  border: 1px solid $colorText;
+  border-radius: 40px;
+  font-size: 30px;
+  padding: 20px 340px 20px 20px;
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color:$colorText;
+}
+.app-testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blockTestimonials {
+  background-color: $colorBackground;
+  padding: 40px 0 40px 0;
+}
+.blockSubscribe {
+  padding: 40px 0 40px 0;
+  color: $colorText;
+}
+@media (max-width: 1200px) {
+  .block-email button {
+    left: 57.7%;
+  }
+}
+@media (max-width: 1080px) {
+  .block-email button {
+    left: 58.7%;
+  }
+}
+@media (max-width: 850px) {
+  .block-email button {
+    left: 61%;
+  }
+}
+@media (max-width: 800px) {
+  .block-email button {
+    left: 61.7%;
+  }
 }

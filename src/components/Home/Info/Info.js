@@ -9,8 +9,8 @@ class Info extends Component {
   render () {
     return (
       <section className='section-info'>
-        <Container className='info'>
-          <Row align='center' className='app-info'>
+        <Container className='info container block'>
+          <Row align='center' className='app-info row'>
             <Col md={6} className='rowInfo'>
               <h1 className='info-title'>Реалізуймо ідеї разом</h1>
               <p className='infoContent'>Pain may sometimes be the reason why people change. Getting

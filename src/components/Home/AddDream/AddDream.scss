@@ -1,6 +1,16 @@
-.addDream {
-  width: 100%;
-  text-align: center;
-  background-color: dodgerblue;
-  color: white;
+@import '../../../themes/utils/varibles.scss';
+
+.section-addDream {
+  background-color: $colorBackground;
+  color: $colorTextWhite;
+}
+.app-addDream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 40px 0;
+}
+.title-addDream {
+  margin-bottom: 0;
 }

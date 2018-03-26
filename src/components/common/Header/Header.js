@@ -8,8 +8,8 @@ class Header extends Component {
   render () {
     return (
       <section className='section-header'>
-        <Container className='header'>
-          <Row align='center' className='app-header'>
+        <Container className='header container'>
+          <Row align='center' className='app-header row'>
             <Col md={2} className='block'>
               <div>
                 <Link to='/' className='logo header-block'>

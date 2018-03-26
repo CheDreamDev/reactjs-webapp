@@ -1,25 +1,37 @@
-.assistants {
-  width: 100%;
-  height: auto;
-  color: dodgerblue;
-  background-color: #e8e8e8;
-}
-.row-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 300px;
-  justify-content: space-around;
+@import '../../../themes/utils/varibles.scss';
+
+.section-assistants {
+  background-color: $colorBackgroundBlue;
+  color: $colorText;
 }
 .row-assistants {
-  max-width: 300px;
-  padding: 15px;
-  margin: 20px 0;
+  padding: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.text-block {
-  text-align: left;
+.text {
+  margin: 10px 0 0 0;
+  font-weight: lighter;
 }
+.projectName {
+  margin: 0 0 10px 0;
+}
+.time {
+  margin: 10px 0 10px 0;
+}
+.account {
+  font-size: 40px;
+  margin: 0 5px 40px 0;
+}
+@media (max-width: 850px) {
+  .assistants {
+    font-size: 16px;
+  }
+}
+
+
+
+
 

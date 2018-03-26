@@ -1,15 +1,7 @@
-.header {
-  padding: 0 !important;
-  max-width: 1200px !important;
-}
-.app-header {
-  margin: 0 !important;
-}
-.block {
-  padding: 0 !important;
-}
+@import '../../../themes/utils/varibles.scss';
+
 .header-block {
-  color: #297FCA;
+  color: $colorText;
   max-height: 90px;
   display: flex;
   flex-direction: row;
@@ -32,7 +24,7 @@
   font-size: 30px;
 }
 .logo-icon {
-  font-size: 40px !important;
+  font-size: 40px;
 }
 .search {
   cursor: pointer;
@@ -40,32 +32,31 @@
 .dreamBtn {
   margin: 30px 0 30px 30px;
   text-decoration: none;
-  color: #297FCA;
+  color: $colorText;
 }
 .addBtn {
   margin: 30px 0 30px 15px;
 }
 .dreamBtn:hover {
-  border-bottom: 1px solid #297FCA;
+  border-bottom: 1px solid $colorBorder;
 }
 .registerBtnHome {
   text-decoration: none;
-  background-color: #297FCA;
-  color: white;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
   padding: 10px 30px;
   margin: 30px 0 30px 25px;
   border-radius: 5px;
-  border: 1px solid #297FCA;
+  border: 1px solid $colorBorder;
   display: inline-block;
   transition: 0.5s;
 }
 .registerBtnHome:hover {
   text-decoration: none;
-  color: #297FCA;
+  color: $colorText;
   background-color: transparent;
-  border-color: #297FCA;
+  border-color: $colorBorder;
 }
-
 @media (max-width: 1200px) {
   .header-block {
     justify-content: center;
@@ -83,5 +74,13 @@
   }
   .registerBtnHome {
     padding: 8px 20px;
+  }
+}
+@media (max-width: 860px) {
+  .addBtn {
+    margin: 30px 0 30px 0;
+  }
+  .dreamBtn {
+    margin: 30px 5px 30px 5px;
   }
 }

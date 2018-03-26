@@ -1,11 +1,8 @@
+@import '../../../themes/utils/varibles.scss';
+
 .section-info {
-  background-color: #297FCA;
-  color: white;
-}
-.info {
-  padding: 0 !important;
-  max-width: 1230px !important;
-  box-sizing: border-box;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
 }
 .info-title {
   font-size: 50px;
@@ -13,7 +10,6 @@
 }
 .infoContent {
   margin-top: 0;
-  padding-right: 130px;
 }
 .rowInfo {
   padding: 100px 0 100px 0;
@@ -23,12 +19,12 @@
   text-align: right;
 }
 .registerBtn {
-  background-color: white;
-  color: #297FCA;
+  background-color: $colorBackgroundWhite;
+  color: $colorText;
   padding: 10px 30px;
   margin: 30px 0 30px 0;
   border-radius: 5px;
-  border: 1px solid #297FCA;
+  border: 1px solid $colorBorder;
   display: inline-block;
   font-size: 18px;
   text-decoration: none;
@@ -36,58 +32,45 @@
 }
 .registerBtn:hover {
   text-decoration: none;
-  color: white;
+  color: $colorTextWhite;
   background-color: transparent;
-  border-color: white;
+  border-color: $colorBorderWhite;
 }
 .btnInfo {
-  color: white;
+  color: $colorTextWhite;
   margin: 30px 0 30px 0;
   padding: 10px 30px;
 }
-@media (max-width: 1200px) {
-  .app-info {
-    margin-right: 0;
-  }
-  .infoContent {
-    padding-right: 50px;
-  }
+.sky {
+  width: 100%;
+}
+@media (max-width: 1280px) {
   .rowImg {
     text-align: center;
-    max-width: 500px;
-  }
-}
-@media (max-width: 1080px) {
-  img {
-    max-width: 450px;
   }
   .info-title {
     font-size: 40px;
+  }
+}
+@media (max-width: 1080px) {
+  .info-title {
+    font-size: 35px;
   }
   .rowInfo {
     padding: 50px;
   }
 }
 @media (max-width: 950px) {
-  img {
-    max-width: 400px;
-  }
   .info-title {
-    font-size: 35px;
+    font-size: 30px;
   }
   .rowInfo {
     padding: 40px;
   }
 }
 @media (max-width: 850px) {
-  .app-info {
-    margin-left: 0;
-  }
   .info {
     font-size: 16px;
-  }
-  img {
-    max-width: 350px;
   }
   .registerBtn {
     padding: 8px 20px;

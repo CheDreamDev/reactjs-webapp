@@ -8,8 +8,8 @@
     "start:js": "react-scripts start",
     "start": "npm-run-all -p watch:css start:js",
     "build": "npm run build:css && react-scripts build",
-    "test": "standard --verbose | snazzy && react-scripts test --env=jsdom",
-    "fix": "standard --verbose --fix | snazzy",
+    "test": "standard --verbose",
+    "fix": "standard --fix",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-spinners": "^0.2.6",
     "redux": "^3.6.0",
     "redux-form": "^7.3.0",
     "redux-persist": "^5.9.1",

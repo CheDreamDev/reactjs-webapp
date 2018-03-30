@@ -1,3 +1,8 @@
 @import '../themes/main.scss';
 
-
+.sweet-loading {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

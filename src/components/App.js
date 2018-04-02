@@ -27,20 +27,19 @@ class App extends Component {
     }
   }
   componentDidMount () {
-    // alert('mounted')
-    this.setState({
-      loading: false
-    })
+    // simulating async, for example request to server
+    setTimeout(() => {
+      this.setState({
+        loading: false
+      })
+    }, 1500)
   }
   render () {
     const renderApp = () => {
       if (this.state.loading) {
         return (
           <div className='sweet-loading'>
-            <BarLoader
-              color='#297FCA'
-              loading={this.state.loading}
-            />
+            <BarLoader color='#297FCA' />
           </div>
         )
       }

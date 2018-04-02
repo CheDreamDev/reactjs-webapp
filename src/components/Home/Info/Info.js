@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './Info.css'
 import { Container, Row, Col } from 'react-grid-system'
-import sky from '../../../assets/images/sky.jpg'
 import { Link } from 'react-router-dom'
 
 class Info extends Component {
@@ -24,9 +23,6 @@ class Info extends Component {
                 to='/about'
                 className='btnInfo'
               >Як це працює</Link>
-            </Col>
-            <Col md={6} className='rowImg'>
-              <img className='sky' src={sky} alt='sky' />
             </Col>
           </Row>
         </Container>

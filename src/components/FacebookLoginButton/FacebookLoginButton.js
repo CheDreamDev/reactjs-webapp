@@ -29,8 +29,8 @@ export default class FacebookLoginButton extends Component {
         callback={this.facebookCallback}
         size='small'
         version='2.12'
-        cssClass='comeBtn'
-        textButton={'Увійти'}
+        cssClass='registerBtnHome'
+        textButton={<div><i className='fab fa-facebook-square' /><span className='icon-header'>Увійти</span></div>}
       />
     </div> : `${this.props.userData.FBName.split(' ')[0]}`) // Token: this.props.userData.FBToken
   }

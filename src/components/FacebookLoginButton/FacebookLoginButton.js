@@ -24,7 +24,7 @@ export default class FacebookLoginButton extends Component {
     return (!this.state.isLogged ? <div>
       <FacebookLogin
         appId='748214505382810'
-        autoLoad
+        // autoLoad
         fields='name,email,picture'
         callback={this.facebookCallback}
         size='small'

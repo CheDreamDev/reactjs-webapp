@@ -4,9 +4,8 @@ import Header from '../common/Header/Header'
 import Info from './Info/Info'
 import Assistants from './Assistants/Assistants'
 import NewDreams from './NewDreams/NewDreams'
-import StepToDream from './StepToDream/StepToDream'
+import AlmostDoneDreams from './AlmostDoneDreams/AlmostDoneDreams'
 import Categories from './Categories/Categories'
-import DreamsСity from './DreamsСity/DreamsСity'
 import City from './City/City'
 import BestDreams from './BestDreams/BestDreams'
 import Testimonials from './Testimonials/Testimonials'
@@ -19,9 +18,8 @@ const Home = () => (
     <Info />
     <Assistants />
     <NewDreams />
-    <StepToDream />
     <Categories />
-    <DreamsСity />
+    <AlmostDoneDreams />
     <City />
     <BestDreams />
     <Testimonials />

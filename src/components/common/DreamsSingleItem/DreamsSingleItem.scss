@@ -1,0 +1,81 @@
+@import '../../../themes/utils/varibles.scss';
+
+.dreams-item {
+ 
+  &-inner {
+    overflow: hidden;
+    border: 1px solid $colorBorder;
+    border-radius: 5px;
+    color: $colorText;
+
+    & > a > img {
+      width: 100%;
+      height: 205px;
+    }
+
+    a {
+      color: $colorText;
+      transition: 400ms;
+      text-decoration: none;
+  
+      &:hover {
+        color: $colorSearch;
+      }
+    }
+  }
+
+  &-info {
+    padding: 27px 23px;
+  }
+
+  &-title {
+    margin: 0;
+  }
+
+  &-author {
+    display: flex;
+    padding: 14px 0;
+    justify-content: flex-start;
+    align-items: center;
+
+    i {
+      font-size: 32px;
+      padding-right: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  &-resources {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-top: 1px solid $colorBorderLight;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+    }
+
+    & > li {
+      flex: 1;
+      padding: 10px 10px 0 0;
+      font-size: 14px;
+
+
+      @media screen and (min-width: 1200px) {
+        padding: 0 10px 0 0;
+      }
+    }
+  }
+}

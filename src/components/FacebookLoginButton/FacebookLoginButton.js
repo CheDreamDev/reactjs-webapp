@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import FacebookLogin from 'react-facebook-login'
 import './FacebookLoginButton.css'
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faFacebookSquare from '@fortawesome/fontawesome-free-brands/faFacebookSquare'
+
 export default class FacebookLoginButton extends Component {
   constructor (props) {
     super(props)
@@ -30,7 +33,7 @@ export default class FacebookLoginButton extends Component {
         size='small'
         version='2.12'
         cssClass='registerBtnHome'
-        textButton={<div><i className='fab fa-facebook-square' /><span className='icon-header'>Увійти</span></div>}
+        textButton={<div><FontAwesomeIcon icon={faFacebookSquare} /><span className='icon-header'>Увійти</span></div>}
       />
     </div> : `${this.props.userData.FBName.split(' ')[0]}`) // Token: this.props.userData.FBToken
   }

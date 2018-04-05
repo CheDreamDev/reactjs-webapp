@@ -1,5 +1,20 @@
 @import '../../../themes/utils/varibles.scss';
 
+.comeBtn {
+  text-decoration: none;
+  color: $colorText;
+  padding: 10px 30px;
+  margin: 30px 0 30px 25px;
+  border: 1px solid $colorBorder;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.comeBtn:hover {
+  text-decoration: none;
+  color: $colorTextWhite;
+  background-color: $colorBackground;
+}
 .section-categories {
   background-color: $colorBackgroundBlue;
 }

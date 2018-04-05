@@ -11,22 +11,22 @@ class Header extends Component {
       <section className='section-header'>
         <Container className='header container'>
           <Row align='center' className='app-header row'>
-            <Col md={2} className='block'>
+            <Col md={4} className='block'>
               <div>
                 <Link to='/' className='logo header-block'>
                   <i className='material-icons logo-icon'>copyright</i>
-                  <h3 className='logo-title'>UDream</h3>
+                  <p className='logo-title'>UDream</p>
                 </Link>
               </div>
             </Col>
-            <Col md={5} className='block'>
+            <Col md={4} className='block'>
               <div className='nav header-block'>
-                <i className='material-icons'>whatshot</i>
                 <NavLink
                   to='/dream/create'
                   className='dreamBtn addBtn'
                   activeClassName='selected'
-                >Створити мрію(проект)</NavLink>
+                ><div className='blockCreateDream'><i className='material-icons'>whatshot</i><span className='icon-header'>Створити мрію(проект)</span></div>
+                </NavLink>
                 <NavLink
                   to='/dreams'
                   className='dreamBtn'
@@ -34,14 +34,10 @@ class Header extends Component {
                 >Мрії(проекти)</NavLink>
               </div>
             </Col>
-            <Col md={5} className='block'>
+            <Col md={4} className='block'>
               <div className='btn header-block'>
                 <i className='material-icons search'>search</i>
                 <FBLogin />
-                <Link
-                  to='/sign-up'
-                  className='registerBtnHome'
-                >Зареєструватися</Link>
               </div>
             </Col>
           </Row>

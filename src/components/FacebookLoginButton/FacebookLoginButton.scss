@@ -1,16 +1,25 @@
-.comeBtn {
+@import '../../themes/utils/varibles.scss';
+
+.registerBtnHome {
   text-decoration: none;
-  color: #297FCA;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
+  font-size: 16px;
   padding: 10px 30px;
-  margin: 30px 0 30px 15px;
-  border: 1px solid #297FCA;
+  margin: 30px 0 30px 25px;
   border-radius: 5px;
+  border: 1px solid $colorBorder;
   display: inline-block;
   transition: 0.5s;
+  outline: none;
+  cursor: pointer;
 }
-.comeBtn:hover {
+.registerBtnHome:hover {
   text-decoration: none;
-  color: white;
-  background-color: #297FCA;
-  border-color: white;
+  color: $colorText;
+  background-color: transparent;
+  border-color: $colorBorder;
+}
+.icon-header {
+  padding: 0 5px 0 12px;
 }

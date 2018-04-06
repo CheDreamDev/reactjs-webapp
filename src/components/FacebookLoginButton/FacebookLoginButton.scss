@@ -1,17 +1,24 @@
-.fb-login {
-	height: 42px;
-	width: 140px;
-	border-radius: 4px;
-	background-color: #297FCA;
-	color: #FFFFFF;
-	font-family: Roboto, sans-serif;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 16px;
-	text-align: center;
+@import '../../themes/utils/varibles.scss';
 
-	.fb-icon {
-		height: 0.9%;
-		width: 0.94%;
-	}
+.registerBtnHome {
+  text-decoration: none;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: 1px solid $colorBorder;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.registerBtnHome:hover {
+  text-decoration: none;
+  color: $colorText;
+  background-color: transparent;
+  border-color: $colorBorder;
+}
+.icon-header {
+  padding: 0 5px 0 12px;
 }

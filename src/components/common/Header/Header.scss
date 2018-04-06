@@ -1,0 +1,54 @@
+@import '../../../themes/utils/varibles.scss';
+
+.header-block {
+  color: $colorText;
+  display: inline-flex;
+  align-items: center;
+}
+.logo {
+  text-decoration: none;
+  justify-content: flex-start;
+}
+.logo-title {
+  margin-left: 12px;
+}
+.nav {
+  justify-content: space-between;
+}
+.btn {
+  justify-content: flex-end;
+}
+.logo-icon {
+  font-size: 40px;
+}
+.search {
+  cursor: pointer;
+}
+.search:hover {
+  color: $colorSearch;
+}
+.dreamBtn {
+  margin-right: 3px;
+  padding: 10px;
+  text-decoration: none;
+  color: $colorText;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: inline-block;
+  transition: 0.5s;
+}
+.blockCreateDream {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addBtn {
+  padding: 7px;
+}
+.dreamBtn:hover {
+  background-color: transparent;
+  border-color: $colorBorder;
+}
+.fb-block {
+  text-align: right;
+}

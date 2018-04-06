@@ -1,0 +1,49 @@
+@import '../../../themes/utils/varibles.scss';
+
+footer {
+  padding: 30px 0;
+  background-color: $colorBackground;
+  color: $colorTextWhite;
+
+  a {
+    color: $colorTextFooter;
+    text-decoration: none;
+    transition: 400ms;
+
+    &:hover {
+        color: $colorTextBlue;
+    }
+  }
+
+  .menuFooter {
+
+    .footer-credentials {
+      
+      .logo {
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+    }
+
+    h3 {
+      margin-top: 9px;
+      text-align: right;
+    }
+
+    ul {
+      text-align: right;
+
+      a {
+        letter-spacing: 2px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  .textFooter {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+  }
+}

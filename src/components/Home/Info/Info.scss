@@ -1,0 +1,76 @@
+@import '../../../themes/utils/varibles.scss';
+
+.section-info {
+  background: url('../../../assets/images/sky.jpg') no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  color: $colorTextWhite;
+}
+.info-title {
+  font-size: 50px;
+  margin: 30px 0 30px 0;
+}
+.infoContent {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 32px;
+  color: $colorTextBlue;
+}
+.rowInfo {
+  padding: 100px 0 100px 0;
+  text-align: left;
+}
+.rowImg {
+  text-align: right;
+}
+.registerBtn {
+  background-color: $colorBackgroundWhite;
+  color: $colorText;
+  padding: 10px 30px;
+  margin: 30px 0 30px 0;
+  border-radius: 5px;
+  border: 1px solid $colorBorder;
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.registerBtn:hover {
+  text-decoration: none;
+  color: $colorTextWhite;
+  background-color: transparent;
+  border-color: $colorBorderWhite;
+}
+.btnInfo {
+  font-size: 18px;
+  color: $colorTextWhite;
+  margin: 30px 0 30px 0;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.btnInfo:hover {
+  color: $colorTextLight;
+}
+@media (max-width: 1280px) {
+  .info-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1080px) {
+  .info-title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 950px) {
+  .info-title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 850px) {
+  .info {
+    font-size: 16px;
+  }
+  .registerBtn {
+    padding: 8px 20px;
+  }
+}

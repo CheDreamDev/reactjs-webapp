@@ -1,0 +1,17 @@
+@import '../../../themes/utils/varibles.scss';
+
+.section-addDream {
+  background: $colorBackground;
+  border-bottom: 1px solid $colorBorderFooter;
+  color: $colorTextWhite;
+}
+.app-addDream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 40px 0;
+}
+.title-addDream {
+  margin-bottom: 0;
+}

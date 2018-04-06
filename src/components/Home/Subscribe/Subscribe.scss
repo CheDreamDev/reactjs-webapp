@@ -1,0 +1,83 @@
+@import '../../../themes/utils/varibles.scss';
+
+.subscribe {
+
+  &-row {
+    padding: 80px 0;
+  }
+  
+  &-wrapper {
+    text-align: center;
+    color: $colorText;
+  }
+
+  &-input-handler {
+    display: flex;
+    padding-left: 35px;
+    padding-right: 6px;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid $colorBackground;
+    background: $colorBackgroundBlueLight;
+    box-sizing: border-box;
+
+    input {
+      flex: 1;
+      margin-right: 5px;
+      font-size: 24px;
+      line-height: 60px;
+      background: transparent;
+      color: $colorText;
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+
+      // need to be optimized by mixin implementation
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $colorBackground;
+        opacity: 1;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: $colorText;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: $colorText;
+        opacity: 1;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: $colorText;
+        opacity: 1;
+      }
+    }
+
+    button {
+      padding: 0 30px;
+      font-weight: 700;
+      font-size: 16px;
+      height: 54px;
+      border: none;
+      border-radius: 40px;
+      border: 1px solid transparent;
+      background: $colorBackground;
+      color: $colorTextWhite;
+      transition: 400ms;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        color: $colorText;
+        border: 1px solid $colorBackground;
+        background: $colorBackgroundBlueLight;
+      }
+    }
+  }
+}

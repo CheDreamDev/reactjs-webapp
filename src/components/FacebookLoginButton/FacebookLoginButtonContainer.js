@@ -4,9 +4,10 @@ import { facebookLogin } from '../../actions/facebook-login'
 import FacebookLoginButton from './FacebookLoginButton'
 
 const mapStateToProps = (state, ownProps) => {
-  console.log('state',state, 'props', ownProps)
+  console.log('state', state, 'props', facebookLogin)
   return {
-  	userData: state.facebookLogin.FBData,
+    facebookLogin,
+    userData: state.facebookLogin.FBData,
     ...ownProps
   }
 }

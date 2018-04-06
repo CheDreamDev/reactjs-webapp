@@ -1,0 +1,47 @@
+@import '../../../themes/utils/varibles.scss';
+
+.section-assistants {
+  background-color: $colorBackgroundBlue;
+  color: $colorText;
+}
+.row-assistants {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    transition: 400ms;
+    color: $colorText;
+
+    &:hover {
+      color: $colorSearch;
+    }
+  }
+}
+.text {
+  margin: 10px 0 0 0;
+  font-weight: lighter;
+}
+.projectName {
+  margin: 0 0 10px 0;
+}
+.time {
+  margin: 10px 0 10px 0;
+}
+.account {
+  font-size: 40px;
+  margin: 0 5px 40px 0;
+}
+@media (max-width: 850px) {
+  .assistants {
+    font-size: 16px;
+  }
+}
+
+
+
+
+

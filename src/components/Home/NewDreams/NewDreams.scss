@@ -1,0 +1,27 @@
+@import '../../../themes/utils/varibles.scss';
+
+.dreams-row {
+  padding: 40px 0 85px;
+}
+
+.section-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-size: 36px;
+    color: $colorText;
+  }
+
+  a {
+    text-transform: uppercase;
+    color: $colorText;
+    transition: 400ms;
+
+    &:hover {
+      color: $colorSearch;
+    }
+  }
+}

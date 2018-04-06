@@ -2,12 +2,10 @@ import React, { Component } from 'react'
 import FacebookLogin from 'react-facebook-login'
 import './FacebookLoginButton.css'
 
-const Icon = () => (
-    <img className='fb-icon' src="" alt="" />
-  )
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faFacebookSquare from '@fortawesome/fontawesome-free-brands/faFacebookSquare'
 
 export default class FacebookLoginButton extends Component {
-
   constructor (props) {
     super(props)
     this.state = {
@@ -18,6 +16,7 @@ export default class FacebookLoginButton extends Component {
   }
 
   facebookCallback (response) {
+    console.log(this.props)
     this.props.facebookLogin(response)
     this.setState({
       isLogged: true
@@ -25,19 +24,17 @@ export default class FacebookLoginButton extends Component {
   }
 
   render () {
-    console.log(this.props)
     return (!this.state.isLogged ? <div>
       <FacebookLogin
         appId='748214505382810'
-        autoLoad={true}
+        // autoLoad
         fields='name,email,picture'
         callback={this.facebookCallback}
         size='small'
-        icon={<Icon />}
-        cssClass='fb-login'
-        textButton={'Увійти'}
+        version='2.12'
+        cssClass='registerBtnHome'
+        textButton={<div><FontAwesomeIcon icon={faFacebookSquare} /><span className='icon-header'>Увійти</span></div>}
       />
-    </div> : `Logged in as ${this.props.userData.FBName} with token: ${this.props.userData.FBToken}`)
+    </div> : `${this.props.userData.FBName.split(' ')[0]}`) // Token: this.props.userData.FBToken
   }
 }
-

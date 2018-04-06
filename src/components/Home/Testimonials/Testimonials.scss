@@ -1,0 +1,22 @@
+@import '../../../themes/utils/varibles.scss';
+
+.testimonials {
+  
+  &-section {
+    padding: 115px 0;
+    background: url('../../../assets/images/sky.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &-wrapper {
+    text-align: center;
+    color: $colorTextWhite;
+
+    p {
+      margin: 0;
+      margin-bottom: 5px;
+      color: $colorTextLight;
+    }
+  }
+}

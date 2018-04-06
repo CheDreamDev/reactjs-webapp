@@ -7,8 +7,9 @@ import NewDreams from './NewDreams/NewDreams'
 import AlmostDoneDreams from './AlmostDoneDreams/AlmostDoneDreams'
 import Categories from './Categories/Categories'
 import City from './City/City'
-import BestDreams from './BestDreams/BestDreams'
+import FaqDreams from './FaqDreams/FaqDreams'
 import Testimonials from './Testimonials/Testimonials'
+import Subscribe from './Subscribe/Subscribe'
 import AddDream from './AddDream/AddDream'
 import Footer from '../common/Footer/Footer'
 
@@ -21,8 +22,9 @@ const Home = () => (
     <Categories />
     <AlmostDoneDreams />
     <City />
-    <BestDreams />
+    <FaqDreams />
     <Testimonials />
+    <Subscribe />
     <AddDream />
     <Footer />
   </div>

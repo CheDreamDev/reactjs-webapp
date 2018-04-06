@@ -32,6 +32,10 @@
       color: $colorText;
       border: none;
 
+      &:focus {
+        outline: none;
+      }
+
       // need to be optimized by mixin implementation
       &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         color: $colorBackground;

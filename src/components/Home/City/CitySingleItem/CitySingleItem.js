@@ -4,7 +4,7 @@ import './CitySingleItem.css'
 
 const CitySingleItem = props => (
   <Col sm={props.colWidth}>
-    <a class='no-text-decoration' href='#'>
+    <a className='no-text-decoration' href='#'>
       <div className='city-single-item'>
         <img src={props.photo} alt='sky' />
         <div className='city-single-info'>

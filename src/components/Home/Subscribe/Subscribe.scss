@@ -62,8 +62,21 @@
       height: 54px;
       border: none;
       border-radius: 40px;
+      border: 1px solid transparent;
       background: $colorBackground;
       color: $colorTextWhite;
+      transition: 400ms;
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        color: $colorText;
+        border: 1px solid $colorBackground;
+        background: $colorBackgroundBlueLight;
+      }
     }
   }
 }

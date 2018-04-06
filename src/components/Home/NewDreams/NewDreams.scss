@@ -1,105 +1,27 @@
 @import '../../../themes/utils/varibles.scss';
 
-.section-dreams {
-  color: $colorText;
+.dreams-row {
+  padding: 40px 0 85px;
 }
-.title-dreams {
+
+.section-title {
   display: flex;
   width: 100%;
-  margin: 60px 0 20px 0;
   justify-content: space-between;
-  .textTitle {
-    padding: 0;
-    margin: 0;
-    font-size: 35px;
-  }
-}
-.btnUncover {
-  text-transform: uppercase;
-  padding: 16px 0 0 0;
-  color: $colorText;
-}
-.rowDreams {
-  max-width: 377px;
-  border: 1px solid $colorBorder;
-  margin: 0 31px 0 0;
-}
-.infoDreams {
-  margin: 0 18px 0 18px;
-  font-size: 16px;
-}
-.author {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0;
-}
-.author-icon {
-  margin-right: 5px;
-}
-hr {
-  border: 0.5px solid $colorBorder;
-  opacity: 0.4;
-}
-.titleDreams {
-  font-size: 18px;
-  font-weight: bolder;
-  margin-bottom: 0;
-}
-.cityDream,.done,.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.cityDream,.resources {
-  margin: 0 0 16px 0;
-}
-.content {
-  margin-left: 120px;
-}
-.photoDream {
-  width: 100%;
-}
-@media (max-width: 1230px) {
-  .rowDreams {
-    margin-bottom: 10px;
-    max-width: 410px;
+
+  h3 {
+    font-size: 36px;
+    color: $colorText;
   }
-  .title-dreams {
-    justify-content: space-around;
-    margin: 60px 0 10px 0;
-    .textTitle {
-      font-size: 25px;
+
+  a {
+    text-transform: uppercase;
+    color: $colorText;
+    transition: 400ms;
+
+    &:hover {
+      color: $colorSearch;
     }
   }
-  .btnUncover {
-    padding: 7px 0 0 0;
-  }
-  .infoDreams {
-    font-size: 16px;
-  }
-  .titleDreams {
-    font-size: 18px;
-  }
 }
-@media (max-width: 1215px) {
-  .rowDreams {
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 1145px) {
-  .infoDreams {
-    font-size: 14px;
-  }
-  .titleDreams {
-    font-size: 16px;
-  }
-}
-@media (max-width: 915px) {
-  .rowDreams {
-    max-width: 352px;
-  }
-}
-
-
-

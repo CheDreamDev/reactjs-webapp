@@ -1,7 +1,8 @@
 @import '../../../themes/utils/varibles.scss';
 
 .section-addDream {
-  background-color: $colorBackground;
+  background: $colorBackground;
+  border-bottom: 1px solid $colorBorderFooter;
   color: $colorTextWhite;
 }
 .app-addDream {

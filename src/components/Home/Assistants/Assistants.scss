@@ -10,6 +10,16 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+
+  a {
+    text-decoration: none;
+    transition: 400ms;
+    color: $colorText;
+
+    &:hover {
+      color: $colorSearch;
+    }
+  }
 }
 .text {
   margin: 10px 0 0 0;

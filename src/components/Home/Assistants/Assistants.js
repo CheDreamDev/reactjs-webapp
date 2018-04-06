@@ -12,32 +12,32 @@ class Assistants extends Component {
             <Col md={3} className='row-assistants'>
               <i className='material-icons account'>account_circle</i>
               <div className='text-block'>
-                <h4 className='text'>Somebody допомагає</h4>
-                <h3 className='projectName'>Назва проекту</h3>
+                <h4 className='text'><a href='#'>Somebody</a> допомагає</h4>
+                <h3 className='projectName'><a href='#'>Назва проекту</a></h3>
                 <p className='time'>5 годин тому</p>
               </div>
             </Col>
             <Col md={3} className='row-assistants'>
               <i className='material-icons account'>account_circle</i>
               <div className='text-block'>
-                <h4 className='text'>Somebody допомагає</h4>
-                <h3 className='projectName'>Назва проекту</h3>
+                <h4 className='text'><a href='#'>Somebody</a> допомагає</h4>
+                <h3 className='projectName'><a href='#'>Назва проекту</a></h3>
                 <p className='time'>5 годин тому</p>
               </div>
             </Col>
             <Col md={3} className='row-assistants'>
               <i className='material-icons account'>account_circle</i>
               <div className='text-block'>
-                <h4 className='text'>Somebody допомагає</h4>
-                <h3 className='projectName'>Назва проекту</h3>
+                <h4 className='text'><a href='#'>Somebody</a> допомагає</h4>
+                <h3 className='projectName'><a href='#'>Назва проекту</a></h3>
                 <p className='time'>5 годин тому</p>
               </div>
             </Col>
             <Col md={3} className='row-assistants'>
               <i className='material-icons account'>account_circle</i>
               <div className='text-block'>
-                <h4 className='text'>Somebody допомагає</h4>
-                <h3 className='projectName'>Назва проекту</h3>
+                <h4 className='text'><a href='#'>Somebody</a> допомагає</h4>
+                <h3 className='projectName'><a href='#'>Назва проекту</a></h3>
                 <p className='time'>5 годин тому</p>
               </div>
             </Col>

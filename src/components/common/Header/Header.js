@@ -25,16 +25,16 @@ class Header extends Component {
                   to='/dream/create'
                   className='dreamBtn addBtn'
                   activeClassName='selected'
-                ><div className='blockCreateDream'><i className='material-icons'>whatshot</i><span className='icon-header'>Створити мрію(проект)</span></div>
+                ><div className='blockCreateDream'><i className='material-icons'>whatshot</i><span className='icon-header'>Створити проект</span></div>
                 </NavLink>
                 <NavLink
                   to='/dreams'
                   className='dreamBtn'
                   activeClassName='selected'
-                >Мрії(проекти)</NavLink>
+                >Проекти</NavLink>
               </div>
             </Col>
-            <Col md={4} className='block'>
+            <Col md={4} className='block fb-block'>
               <div className='btn header-block'>
                 <i className='material-icons search'>search</i>
                 <FBLogin />

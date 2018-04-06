@@ -6,13 +6,12 @@
   color: $colorTextWhite;
   font-size: 16px;
   padding: 10px 30px;
-  margin: 30px 0 30px 25px;
+  margin-left: 25px;
   border-radius: 5px;
   border: 1px solid $colorBorder;
   display: inline-block;
-  transition: 0.5s;
-  outline: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 .registerBtnHome:hover {
   text-decoration: none;

@@ -1,44 +1,63 @@
 @import '../../../themes/utils/varibles.scss';
 
-.comeBtn {
-  text-decoration: none;
-  color: $colorText;
-  padding: 10px 30px;
-  margin: 30px 0 30px 25px;
-  border: 1px solid $colorBorder;
-  border-radius: 5px;
-  display: inline-block;
-  transition: 0.5s;
-}
-.comeBtn:hover {
-  text-decoration: none;
-  color: $colorTextWhite;
-  background-color: $colorBackground;
-}
+// .comeBtn {
+//   text-decoration: none;
+//   color: $colorText;
+//   padding: 10px 30px;
+//   margin: 30px 0 30px 25px;
+//   border: 1px solid $colorBorder;
+//   border-radius: 5px;
+//   display: inline-block;
+//   transition: 0.5s;
+
+//   &:hover {
+//     text-decoration: none;
+//     color: $colorTextWhite;
+//     background-color: $colorBackground;
+//   } 
+// }
+
+
 .section-categories {
-  background-color: $colorBackgroundBlue;
+  padding: 25px 0;
+  background: $colorBackgroundLight;
 }
-.button {
-  margin: 30px 0 30px 0;
-}
-.block-btn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-@media (max-width: 1170px) {
-  .button {
-    padding: 10px 20px;
+
+.categories-button-wrapper {
+
+  .categories-button {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid $colorBackground;
+    background-color: $colorBackground;
+    color: $colorTextWhite;
+    transition: 400ms;
+
+    @media screen and (min-width: 991px) {
+      font-size: 16px;
+    }
+
+    &:hover {
+      background-color: $colorBackgroundLight;
+      color: $colorBackground;
+    }
+  }
+
+  .last-categories-button {
+    @extend .categories-button;
+    background-color: $colorBackgroundLight;
+    border: 1px solid $colorBackground;
+    color: $colorBackground;
+    transition: 400ms;
+
+    &:hover {
+      background-color: $colorBackground;
+      color: $colorBackgroundLight;
+    }
   }
 }
-@media (max-width: 1170px) {
-  .button {
-    padding: 10px 10px;
-  }
-}
-@media (max-width: 930px) {
-  .button {
-    padding: 10px 8px;
-    font-size: 15px;
-  }
-}
+

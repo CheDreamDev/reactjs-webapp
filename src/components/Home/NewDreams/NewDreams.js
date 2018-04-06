@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './NewDreams.css'
-import { Container, Row } from 'react-grid-system'
+import { Container, Row, Col } from 'react-grid-system'
 import DreamsSingleItem from '../../common/DreamsSingleItem/DreamsSingleItem'
 import sky from '../../../assets/images/sky.jpg'
 
@@ -46,16 +46,20 @@ class NewDreams extends Component {
   }
   render () {
     return (
-      <section className='section-dreams'>
-        <Container className='dreams container'>
-          <Row align='center' className='app-dreams row'>
-            <div className='title-dreams'>
-              <h3 className='textTitle'>Нові мрії</h3>
-              <a href='#' className='btnUncover'>показати більше</a>
-            </div>
-            <Row align='center' className='blockDreams wrap row-center'>
-              {this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />)}
-            </Row>
+      <section className='dreams-section'>
+        <Container className='dreams'>
+          <Row align='center' className='dreams-row'>
+            <Col xs={12}>
+              <div className='section-title'>
+                <h3>Нові мрії</h3>
+                <a href='#'>показати більше</a>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <Row className='dreams-wrapper'>
+                { this.state.cards.map(card => <DreamsSingleItem key={card.id} {...card} />) }
+              </Row>
+            </Col>
           </Row>
         </Container>
       </section>
